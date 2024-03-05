@@ -9,27 +9,27 @@ name,size,faculty
 "Verwoord, R",1,Other/Non-UBC
 "Acton, D",4,Computer Science
 "Berg, C",2,Other/Non-UBC
-"Voll, K",2,Other/Non-UBC
+"Voll, K",2,Computer Science
 "Wolfman, S",15,Computer Science
-"Yu, B",1,Other/Non-UBC
+"Yu, B",1,Computer Science
 "Adams, W",2,Other/Non-UBC
 "Gilley, B",14,"Earth, Ocean and Atmospheric Sciences"
 "Agar, B",1,Other/Non-UBC
 "Birol, G",39,Skylight
-"Çinar, A",1,Other/Non-UBC
-"Algar, W",4,Other/Non-UBC
+"Cinar, A",5,Other/Non-UBC
+"Algar, W",4,Chemistry
 "Elouazizi, N",2,Skylight
 "Stewart, J",12,Skylight
-"Maxwell, E",3,Other/Non-UBC
+"Maxwell, E",3,Chemistry
 "Tan, T",1,Other/Non-UBC
 "Zhang, Z",4,Other/Non-UBC
 "Stoodley, R",5,Chemistry
-Rodríguez N,3,Other/Non-UBC
+"Rodriguez Nunez, J",3,Chemistry
 "Terpstra, A",1,Other/Non-UBC
 "Wickenden, J",1,Chemistry
 "Krull, U",2,Other/Non-UBC
 "Massey, M",1,Other/Non-UBC
-"Dawson, J",5,Other/Non-UBC
+"Dawson, J",5,Computer Science
 "Leveridge, N",1,Other/Non-UBC
 "Valair, A",2,Other/Non-UBC
 "Almstrum, V",1,Other/Non-UBC
@@ -39,9 +39,9 @@ Rodríguez N,3,Other/Non-UBC
 "Marion, W",1,Other/Non-UBC
 "Riedesel, C",1,Other/Non-UBC
 "Soh, L",1,Other/Non-UBC
-"Tew, A",1,Other/Non-UBC
+"Tew, A",1,Computer Science
 "Amershi, S",2,Other/Non-UBC
-"Carenini, G",2,Other/Non-UBC
+"Carenini, G",2,Computer Science
 "Conati, C",24,Computer Science
 "Mackworth, A",2,Other/Non-UBC
 "Poole, D",2,Computer Science
@@ -51,7 +51,7 @@ Rodríguez N,3,Other/Non-UBC
 "Antimirova, T",1,Other/Non-UBC
 "Goldman, P",1,Other/Non-UBC
 "Lasry, N",1,Other/Non-UBC
-"Milner-Bolotin, M",12,Other/Non-UBC
+"Milner-Bolotin, M",12,Skylight
 "Thompson, R",1,Other/Non-UBC
 "Arakawa, K",1,Other/Non-UBC
 "Hao, Q",1,Other/Non-UBC
@@ -123,8 +123,8 @@ Rodríguez N,3,Other/Non-UBC
 "Sitaraman, M",1,Other/Non-UBC
 "Baniassad, E",11,Computer Science
 "Beschastnikh, I",1,Other/Non-UBC
-"Holmes, R",5,Other/Non-UBC
-"Kiczales, G",2,Other/Non-UBC
+"Holmes, R",5,Computer Science
+"Kiczales, G",2,Computer Science
 "Campbell, A",7,Other/Non-UBC
 "Allidina, T",1,Other/Non-UBC
 "Ord, A",1,Other/Non-UBC
@@ -142,7 +142,7 @@ Rodríguez N,3,Other/Non-UBC
 "Brown, J",1,Other/Non-UBC
 "Downey, A",1,Other/Non-UBC
 "George, T",1,Other/Non-UBC
-"Heagy, L",2,Other/Non-UBC
+"Heagy, L",2,"Earth, Ocean and Atmospheric Sciences"
 "Mandli, K",1,Other/Non-UBC
 "Moore, J",1,Other/Non-UBC
 "Lippert, D",1,Other/Non-UBC
@@ -151,9 +151,9 @@ Rodríguez N,3,Other/Non-UBC
 "West, R",1,Other/Non-UBC
 "Willing, C",1,Other/Non-UBC
 "Zingale, M",1,Other/Non-UBC
-"Barker, M",6,Other/Non-UBC
-"Jandciu, E",6,Other/Non-UBC
-"Young, R",4,Other/Non-UBC
+"Barker, M",6,Biology
+"Jandciu, E",6,Skylight
+"Young, R",4,Biology
 "Barrette-Ng, I",2,Other/Non-UBC
 "Code, W",25,Skylight
 "Power, M",1,Other/Non-UBC
@@ -176,37 +176,35 @@ Rodríguez N,3,Other/Non-UBC
 "Biermann, O",1,Other/Non-UBC
 "Ajisafe, D",1,Other/Non-UBC
 "Yoon, D",16,Computer Science
-"Briseño-Garzón, A",3,Other/Non-UBC
+"Briseno-Garzon, A",4,Other/Non-UBC
 "Han, A",8,Other/Non-UBC
 "Deane, T",6,Other/Non-UBC
 "Cassidy, A",4,Other/Non-UBC
 "Fox, J",11,Michael Smith Labs
-"Briseno-Garzon, A",1,Other/Non-UBC
 "Whitehead, L",2,Other/Non-UBC
 "McKenna, A",5,Other/Non-UBC
 "Smith, H",5,Other/Non-UBC
 "Giorgio, T",4,Other/Non-UBC
 "Brophy, S",4,Other/Non-UBC
 "Birol, I",2,Other/Non-UBC
-"Cinar, A",4,Other/Non-UBC
 "Smith, D",1,Other/Non-UBC
-"Smith, K",6,Other/Non-UBC
+"Smith, K",6,Biology
 "Goedhart, C",4,Skylight
 "Sherman, S",6,Skylight
 "Harris, S",22,"Earth, Ocean and Atmospheric Sciences"
 "Wideman, T",1,Other/Non-UBC
-"Bole, G",1,Other/Non-UBC
-"Chowrira, S",3,Other/Non-UBC
-"Clarkston, B",6,Botany
-"Hansen, M",2,Other/Non-UBC
+"Bole, G",1,Biology
+"Chowrira, S",3,Biology
+"Clarkston, B",6,Biology
+"Hansen, M",2,Biology
 "Jeffery, E",4,Skylight
-"Kalas, P",13,Zoology
-"Nomme, K",5,Other/Non-UBC
+"Kalas, P",13,Biology
+"Nomme, K",5,Biology
 "Oh-McGinnis, R",1,Other/Non-UBC
 "O'Neill, A",3,Other/Non-UBC
 "Pollock, C",6,Other/Non-UBC
 "Sharp, J",1,Other/Non-UBC
-"Tseng, M",2,Botany
+"Tseng, M",2,Biology
 "Budzynski, E",1,Other/Non-UBC
 "Crosson, L",1,Other/Non-UBC
 "Fahrenbach, J",1,Other/Non-UBC
@@ -220,13 +218,13 @@ Rodríguez N,3,Other/Non-UBC
 "Miller, E",1,Other/Non-UBC
 "McPherson, A",1,Other/Non-UBC
 "Simpson, S",1,Other/Non-UBC
-"Sutherland, S",3,Other/Non-UBC
+"Sutherland, S",3,"Earth, Ocean and Atmospheric Sciences"
 "Seller, A",1,Other/Non-UBC
 "Blaser, M",1,Other/Non-UBC
 "Clark, T",1,Other/Non-UBC
 "Lamont, L",1,Other/Non-UBC
 "Boesen, T",1,Other/Non-UBC
-"Haber, E",1,Other/Non-UBC
+"Haber, E",1,Physics and Astronomy
 "Boicu, M",1,Other/Non-UBC
 "Tecuci, G",1,Other/Non-UBC
 "Marcu, D",1,Other/Non-UBC
@@ -236,7 +234,7 @@ Rodríguez N,3,Other/Non-UBC
 "Short, K",1,Other/Non-UBC
 "Carlson, S",1,Other/Non-UBC
 "Braga, C",1,Other/Non-UBC
-"Mochetti, K",3,Other/Non-UBC
+"Mochetti, K",3,Computer Science
 "Bray, L",2,Other/Non-UBC
 "Bunt, A",2,Other/Non-UBC
 "Burr, W",1,Other/Non-UBC
@@ -245,7 +243,7 @@ Rodríguez N,3,Other/Non-UBC
 "Gibbs, A",1,Other/Non-UBC
 "Ng, R",3,Computer Science
 "Wild, C",1,Other/Non-UBC
-"Bussière, G",1,Other/Non-UBC
+"Bussiere, G",2,Chemistry
 "Yajima, K",1,Other/Non-UBC
 "Bagai, A",1,Other/Non-UBC
 "Popowich, A",1,Other/Non-UBC
@@ -255,7 +253,7 @@ Rodríguez N,3,Other/Non-UBC
 "Asiedu, E",1,Other/Non-UBC
 "Ives, J",12,Physics and Astronomy
 "Summers, M",1,Other/Non-UBC
-"Stang, J",9,Other/Non-UBC
+"Stang, J",9,Physics and Astronomy
 "Kelly, T",5,Other/Non-UBC
 "Capperucci, D",1,Other/Non-UBC
 "Scierri, I",1,Other/Non-UBC
@@ -264,37 +262,37 @@ Rodríguez N,3,Other/Non-UBC
 "Toti, G",6,Computer Science
 "Barbisoni, G",1,Other/Non-UBC
 "Pera, E",1,Other/Non-UBC
-"Carter, P",2,Other/Non-UBC
+"Carter, P",2,Computer Science
 "Dee, J",1,Other/Non-UBC
 "Lam, V",1,Other/Non-UBC
-"Caulkins, J",3,Other/Non-UBC
-"Hickey, K",2,Other/Non-UBC
-"Scoates, J",2,Other/Non-UBC
+"Caulkins, J",3,"Earth, Ocean and Atmospheric Sciences"
+"Hickey, K",2,"Earth, Ocean and Atmospheric Sciences"
+"Scoates, J",2,"Earth, Ocean and Atmospheric Sciences"
 "Challen, G",1,Other/Non-UBC
-"Seltzer, M",2,Other/Non-UBC
+"Seltzer, M",2,Computer Science
 "Chan, B",1,Other/Non-UBC
 "Chasteen, S",5,Other/Non-UBC
 "Perkins, K",3,Other/Non-UBC
-"Wieman, C",16,Other/Non-UBC
+"Wieman, C",16,Physics and Astronomy
 "Chen, L",2,Other/Non-UBC
-"Zeiler, K",1,Botany
+"Zeiler, K",1,Biology
 "Chow, A",1,Other/Non-UBC
 "Harrington, P",1,Other/Non-UBC
 "Leung, F",6,Mathematics
 et a,1,Other/Non-UBC
 "Dubois, P",4,Other/Non-UBC
-"Roll, I",20,Other/Non-UBC
+"Roll, I",20,Physics and Astronomy
 "Kohler, D",2,Other/Non-UBC
 "MacLean, M",6,Mathematics
-"Merchant, S",3,Other/Non-UBC
+"Merchant, S",3,Mathematics
 "Maciejewski, W",1,Other/Non-UBC
 "Thomas, M",1,Other/Non-UBC
-"Lo, J",2,Other/Non-UBC
+"Lo, J",2,Mathematics
 "Reilly, D",1,Other/Non-UBC
 "Warren, L",1,Other/Non-UBC
 "Heels, L",1,Other/Non-UBC
 "Marshall, L",1,Other/Non-UBC
-El K,1,Other/Non-UBC
+"El Khoury, E",1,Other/Non-UBC
 "Coles, M",2,Other/Non-UBC
 "Radzimski, V",3,Other/Non-UBC
 "Sargent, P",2,Other/Non-UBC
@@ -305,22 +303,22 @@ El K,1,Other/Non-UBC
 "Jaques, N",1,Other/Non-UBC
 "Muir, M",1,Other/Non-UBC
 "Cooke, J",1,Other/Non-UBC
-"Weir, L",2,Other/Non-UBC
+"Weir, L",2,Biology
 "Crenshaw, T",2,Other/Non-UBC
 "Chambers, E",2,Other/Non-UBC
 "Metcalf, H",2,Other/Non-UBC
 "Dahlgren, M",1,Other/Non-UBC
-"Öberg, G",4,Other/Non-UBC
+"Oberg, G",6,"Institute for Resources, Environment, and Sustainability"
 "Davidson, A",1,Other/Non-UBC
-"Charbonneau, J",2,Other/Non-UBC
-"Day, J",7,Other/Non-UBC
-"Bonn, D",13,Other/Non-UBC
-"Holmes, N",10,Other/Non-UBC
+"Charbonneau, J",2,Physics and Astronomy
+"Day, J",7,Physics and Astronomy
+"Bonn, D",13,Physics and Astronomy
+"Holmes, N",10,Physics and Astronomy
 "Kumar, D",1,Other/Non-UBC
 "Schwartz, D",1,Other/Non-UBC
 "Nakahara, H",2,Other/Non-UBC
-"Deslauriers, L",4,Other/Non-UBC
-"Lane, E",4,Other/Non-UBC
+"Deslauriers, L",4,Physics and Astronomy
+"Lane, E",4,"Earth, Ocean and Atmospheric Sciences"
 "Schelew, E",1,Other/Non-UBC
 "Dewji, N",1,Other/Non-UBC
 "Herman, G",4,Other/Non-UBC
@@ -328,12 +326,12 @@ El K,1,Other/Non-UBC
 "Taylor, C",1,Other/Non-UBC
 "Vahrenhold, J",1,Other/Non-UBC
 "Dill-McFarland, K",1,Other/Non-UBC
-"König, S",2,Other/Non-UBC
+"Konig, S",2,Other/Non-UBC
 "Mazel, F",1,Other/Non-UBC
-"Oliver, D",5,Microbiology
+"Oliver, D",5,Biology
 "McEwen, L",1,Other/Non-UBC
 "Hong, K",1,Other/Non-UBC
-"Hallam, S",2,Microbiology
+"Hallam, S",2,Biology
 "Diluvi, G",2,Other/Non-UBC
 "Dunham, B",4,Statistics
 "Heckman, N",2,Statistics
@@ -350,10 +348,10 @@ El K,1,Other/Non-UBC
 "Leander, C",1,Other/Non-UBC
 "Louis-Martinez, D",1,Other/Non-UBC
 "Waltham, C",1,Other/Non-UBC
-"Duis, J",1,Other/Non-UBC
-"Schafer, L",2,Other/Non-UBC
-"Nussbaum, S",3,Other/Non-UBC
-"Yapa, G",1,Other/Non-UBC
+"Duis, J",1,Chemistry
+"Schafer, L",2,Chemistry
+"Nussbaum, S",3,Chemistry
+"Yapa, G",1,Statistics
 "Yu, E",1,Statistics
 "Eby, K",3,Other/Non-UBC
 "Reid, S",2,Other/Non-UBC
@@ -363,13 +361,12 @@ El K,1,Other/Non-UBC
 "Elder, S",1,Other/Non-UBC
 "Wittman, H",1,Other/Non-UBC
 "Giang, A",2,"Institute for Resources, Environment, and Sustainability"
-"Oberg, G",2,"Institute for Resources, Environment, and Sustainability"
 "Erzen, F",2,Other/Non-UBC
 "Fagen-Ulmschneider, W",2,Other/Non-UBC
 "West, M",1,Other/Non-UBC
 "Ferrara, J",1,Other/Non-UBC
 "Cochran, A",1,Other/Non-UBC
-Del C,1,Other/Non-UBC
+"Del Campo, M",1,Other/Non-UBC
 "Goeb, C",1,Other/Non-UBC
 "Kleemiss, F",1,Other/Non-UBC
 Le M,1,Other/Non-UBC
@@ -390,23 +387,23 @@ Le M,1,Other/Non-UBC
 "Baloy, N",1,Other/Non-UBC
 "Sens, A",1,Other/Non-UBC
 "Nakonechny, J",3,Other/Non-UBC
-"Berger, J",1,Other/Non-UBC
+"Berger, J",1,Biology
 "Peacock, S",2,Other/Non-UBC
 "Samuels, L",1,Other/Non-UBC
 "Fratamico, L",1,Other/Non-UBC
 "Gao, X",1,Other/Non-UBC
 "Wright, J",2,Other/Non-UBC
 "Leyton-Brown, K",6,Computer Science
-"Garaschuk, K",1,Other/Non-UBC
+"Garaschuk, K",1,Mathematics
 "Cytrynbaum, E",1,Mathematics
 "Garzke, J",1,Other/Non-UBC
-"Steinwand, B",2,Zoology
+"Steinwand, B",2,Biology
 "Gaudet, A",1,Other/Non-UBC
 "Ramer, L",1,Other/Non-UBC
 "Cragg, J",1,Other/Non-UBC
-"Ramer, M",1,Zoology
+"Ramer, M",1,Biology
 "Geange, S",1,Other/Non-UBC
-von O,1,Other/Non-UBC
+"von Oppen, J",1,Other/Non-UBC
 "Strydom, T",1,Other/Non-UBC
 "Boakye, M",1,Other/Non-UBC
 "Gauthier, T",1,Other/Non-UBC
@@ -420,12 +417,12 @@ von O,1,Other/Non-UBC
 "Cotner, S",1,Other/Non-UBC
 "Farfan-Rios, W",1,Other/Non-UBC
 "Maitner, B",1,Other/Non-UBC
-"Michaletz, S",1,Botany
+"Michaletz, S",1,Biology
 "Telford, R",1,Other/Non-UBC
 "Enquist, B",1,Other/Non-UBC
 "Vandvik, V",1,Other/Non-UBC
 "Gilbert, S",4,Other/Non-UBC
-"Jones, F",14,Other/Non-UBC
+"Jones, F",14,"Earth, Ocean and Atmospheric Sciences"
 "Gin, L",1,Other/Non-UBC
 "Rowland, A",1,Other/Non-UBC
 "Bruno, J",1,Other/Non-UBC
@@ -440,9 +437,9 @@ von O,1,Other/Non-UBC
 "Greenhoot, A",1,Other/Non-UBC
 "Aslan, C",1,Other/Non-UBC
 "Guzman, L",1,Other/Non-UBC
-"Pennell, M",1,Zoology
+"Pennell, M",1,Biology
 "Nikelski, E",1,Other/Non-UBC
-"Srivastava, D",2,Zoology
+"Srivastava, D",2,Biology
 "Heyl, N",2,Other/Non-UBC
 "Jaeger, C",1,Other/Non-UBC
 "Loewen, P",1,Mathematics
@@ -455,7 +452,7 @@ von O,1,Other/Non-UBC
 "Schoonmaker, J",1,Other/Non-UBC
 "Taylor, S",1,Other/Non-UBC
 "Hayes, L",1,Other/Non-UBC
-"Aviles, L",1,Zoology
+"Aviles, L",1,Biology
 "Fernandez-Duque, E",1,Other/Non-UBC
 "Huck, M",1,Other/Non-UBC
 "Lacey, E",1,Other/Non-UBC
@@ -464,21 +461,21 @@ von O,1,Other/Non-UBC
 "Pillay, N",1,Other/Non-UBC
 "Solomon, N",1,Other/Non-UBC
 "Schradin, C",1,Other/Non-UBC
-"Oldenburg, D",1,Other/Non-UBC
+"Oldenburg, D",1,"Earth, Ocean and Atmospheric Sciences"
 "Kang, S",1,Other/Non-UBC
 "Melo, A",1,Other/Non-UBC
 "Perez, F",1,Other/Non-UBC
-"Heiner, C",5,Other/Non-UBC
+"Heiner, C",5,Physics and Astronomy
 "Banet, A",2,Other/Non-UBC
 "Hendricks, C",1,Other/Non-UBC
 "Reinsberg, S",3,Physics and Astronomy
 "Rieger, G",13,Physics and Astronomy
-"Ola, O",12,Other/Non-UBC
+"Ola, O",12,Computer Science
 "Yalvac, B",2,Other/Non-UBC
 "Casler, J",1,Other/Non-UBC
 "Anderson, J",1,Other/Non-UBC
 "Troy, J",1,Other/Non-UBC
-"Holland, T",2,Other/Non-UBC
+"Holland, T",2,"Earth, Ocean and Atmospheric Sciences"
 Anthony H,1,Other/Non-UBC
 "Martinuk, M",2,Other/Non-UBC
 "Warren, M",1,Other/Non-UBC
@@ -486,7 +483,7 @@ Anthony H,1,Other/Non-UBC
 "Reid, K",1,Other/Non-UBC
 "Stroulia, E",1,Other/Non-UBC
 "Horton, D",1,Other/Non-UBC
-"Häse, F",1,Other/Non-UBC
+"Hase, F",1,Other/Non-UBC
 "Aldeghi, M",1,Other/Non-UBC
 "Hickman, R",1,Other/Non-UBC
 "Roch, L",1,Other/Non-UBC
@@ -515,37 +512,37 @@ Anthony H,1,Other/Non-UBC
 "Santangelo, J",1,Other/Non-UBC
 "Coome, L",1,Other/Non-UBC
 "Tran, L",1,Other/Non-UBC
-De A,1,Other/Non-UBC
+"De Andrade, E",1,Other/Non-UBC
 "Mahallati, S",1,Other/Non-UBC
 "Jolley, A",3,Other/Non-UBC
-"Jones, D",1,Other/Non-UBC
-"Madison, K",1,Other/Non-UBC
-"Austin, P",1,Other/Non-UBC
-"Schoof, C",1,Other/Non-UBC
-"Ivanochko, T",2,Other/Non-UBC
+"Jones, D",1,Physics and Astronomy
+"Madison, K",1,Physics and Astronomy
+"Austin, P",1,"Earth, Ocean and Atmospheric Sciences"
+"Schoof, C",1,"Earth, Ocean and Atmospheric Sciences"
+"Ivanochko, T",2,"Earth, Ocean and Atmospheric Sciences"
 "Baldeon, G",1,Other/Non-UBC
-"Eberhardt, E",1,Other/Non-UBC
-"Steyn, D",1,Other/Non-UBC
+"Eberhardt, E",1,"Earth, Ocean and Atmospheric Sciences"
+"Steyn, D",1,"Earth, Ocean and Atmospheric Sciences"
 "Longridge, L",1,Other/Non-UBC
-"Smith, P",1,Other/Non-UBC
+"Smith, P",1,"Earth, Ocean and Atmospheric Sciences"
 "Scott, T",1,Other/Non-UBC
 "Jungic, V",1,Other/Non-UBC
 "Creelman, D",1,Other/Non-UBC
 "Bigelow, A",1,Other/Non-UBC
-"Côté, E",1,Other/Non-UBC
+"Cote, E",1,Other/Non-UBC
 "Joordens, S",1,Other/Non-UBC
 "Ostafichuk, P",1,Other/Non-UBC
 "Riddell, J",1,Other/Non-UBC
 "Toulouse, P",1,Other/Non-UBC
 "Yoon, J",1,Other/Non-UBC
-"McDonnell, L",8,Other/Non-UBC
+"McDonnell, L",8,Biology
 "McLellan, S",1,Other/Non-UBC
 "Raisinghani, L",1,Other/Non-UBC
 "Jackman, A",1,Other/Non-UBC
 "Goel, R",1,Other/Non-UBC
 "Moussavi, M",2,Other/Non-UBC
 "Mao, Y",1,Other/Non-UBC
-"Redfield, R",2,Zoology
+"Redfield, R",2,Biology
 "Karimi, O",1,Other/Non-UBC
 "Gutica, M",1,Other/Non-UBC
 "Robinson, R",1,Other/Non-UBC
@@ -562,24 +559,23 @@ De A,1,Other/Non-UBC
 "Knight, S",1,Other/Non-UBC
 "Martinez-Maldonado, R",1,Other/Non-UBC
 "Sadiq, S",1,Other/Non-UBC
-"Gaševic, D",1,Other/Non-UBC
+"Gasevic, D",1,Other/Non-UBC
 "Kianzad, S",1,Other/Non-UBC
 "MacLean, K",3,Computer Science
 "Klegeris, A",1,Other/Non-UBC
 "Bradshaw, H",1,Other/Non-UBC
-"Klenz, J",4,Other/Non-UBC
+"Klenz, J",4,Biology
 "Knorr, E",2,Computer Science
-"Knox, K",4,Other/Non-UBC
+"Knox, K",4,Chemistry
 "Gillis, E",3,Other/Non-UBC
 "Dake, G",2,Chemistry
-"Lalle, S",1,Other/Non-UBC
+"Lalle, S",6,Other/Non-UBC
 "Murali, R",1,Other/Non-UBC
 "Azevedo, R",1,Other/Non-UBC
-"Lallé, S",5,Other/Non-UBC
-"Yalçin, Ö",2,Other/Non-UBC
+"Yalcin, O",2,Other/Non-UBC
 "Lanir, J",1,Other/Non-UBC
 "Booth, K",1,Other/Non-UBC
-"Lee, J",1,Other/Non-UBC
+"Lee, J",1,Biology
 "Moon, W",1,Other/Non-UBC
 "Yeom, K",1,Other/Non-UBC
 "Kim, D",1,Other/Non-UBC
@@ -607,7 +603,7 @@ De A,1,Other/Non-UBC
 "Ibrahim, L",1,Other/Non-UBC
 "Jones, J",1,Other/Non-UBC
 "McConnell, D",2,Other/Non-UBC
-St J,3,Other/Non-UBC
+"St John, K",3,Other/Non-UBC
 "Mazabel, S",3,Other/Non-UBC
 "Pete, S",3,"Earth, Ocean and Atmospheric Sciences"
 "Millsaps, C",1,Other/Non-UBC
@@ -618,15 +614,15 @@ St J,3,Other/Non-UBC
 "Berquist, P",1,Other/Non-UBC
 "Lyons, M",1,Other/Non-UBC
 "Gabriel, D",1,Other/Non-UBC
-"Groat, L",1,Other/Non-UBC
-"Schneider, O",2,Other/Non-UBC
+"Groat, L",1,"Earth, Ocean and Atmospheric Sciences"
+"Schneider, O",2,Computer Science
 "WeillDuflos, A",1,Other/Non-UBC
 "Levesque, V",1,Other/Non-UBC
 "Irani, P",1,Other/Non-UBC
 "Cooperstock, J",1,Other/Non-UBC
 "Poole, G",1,Other/Non-UBC
 "Macdonald, A",1,Other/Non-UBC
-"Burke, S",2,Other/Non-UBC
+"Burke, S",2,Physics and Astronomy
 "Mahmud, S",1,Other/Non-UBC
 "Alvina, J",1,Other/Non-UBC
 "Chilana, P",4,Other/Non-UBC
@@ -639,25 +635,24 @@ St J,3,Other/Non-UBC
 "Favre, D",1,Other/Non-UBC
 "Weinstein, S",1,Other/Non-UBC
 "McNutt, J",1,Other/Non-UBC
-"Rechnitzer, A",2,Other/Non-UBC
+"Rechnitzer, A",2,Mathematics
 "Meyer, C",1,Other/Non-UBC
 "Shaffer, E",1,Other/Non-UBC
 "Tedesco, J",1,Other/Non-UBC
 "Milner, V",5,Physics and Astronomy
 "Aminov, O",1,Other/Non-UBC
 "Wasserman, W",1,Other/Non-UBC
-"Kotlicki, A",1,Other/Non-UBC
-"Tasnádi, A",1,Other/Non-UBC
+"Kotlicki, A",1,Physics and Astronomy
+"Tasnadi, A",1,Other/Non-UBC
 "Weck, H",1,Other/Non-UBC
 "Groma, I",1,Other/Non-UBC
-"Ispánovity, P",1,Other/Non-UBC
+"Ispanovity, P",1,Other/Non-UBC
 "Souza, J",1,Other/Non-UBC
 "Santos, C",1,Other/Non-UBC
-Ururay F,1,Other/Non-UBC
-Domingos C,1,Other/Non-UBC
+"Ururay Fragoso Araujo, T",1,Other/Non-UBC
+"Domingos Correia Santos, C",1,Other/Non-UBC
 "Monga, V",1,Chemistry
-"Bussiere, G",1,Chemistry
-"Rogers, C",1,Other/Non-UBC
+"Rogers, C",1,Chemistry
 "Moosvi, F",4,Other/Non-UBC
 "Eddelbuettel, D",1,Other/Non-UBC
 "Fund, F",1,Other/Non-UBC
@@ -676,7 +671,7 @@ Domingos C,1,Other/Non-UBC
 "Harrigton, B",1,Other/Non-UBC
 "Moslemi, J",1,Other/Non-UBC
 "Capps, K",1,Other/Non-UBC
-"Johnson, M",1,Other/Non-UBC
+"Johnson, M",1,"Institute for Resources, Environment, and Sustainability"
 "Maul, J",1,Other/Non-UBC
 "McIntyre, P",1,Other/Non-UBC
 "Melvin, A",1,Other/Non-UBC
@@ -703,9 +698,9 @@ Domingos C,1,Other/Non-UBC
 "Oehlman, N",1,Other/Non-UBC
 "Haegar, H",1,Other/Non-UBC
 "Banks, J",1,Other/Non-UBC
-"Chávez, V",1,Other/Non-UBC
+"Chavez, V",1,Other/Non-UBC
 "Liao, S",1,Other/Non-UBC
-"Peña, J",1,Other/Non-UBC
+"Pena, J",1,Other/Non-UBC
 "Cukierman, D",1,Other/Non-UBC
 "Rotundo, B",1,Other/Non-UBC
 "Hsia, J",1,Other/Non-UBC
@@ -734,23 +729,23 @@ International E,1,Other/Non-UBC
 "Prat, A",2,Other/Non-UBC
 "Pressman, A",1,Other/Non-UBC
 "Ramdass, T",1,Other/Non-UBC
-"Walls, P",1,Other/Non-UBC
+"Walls, P",1,Mathematics
 "Ford, V",1,Other/Non-UBC
 "Turygina, V",1,Other/Non-UBC
-"Pérez-Quiñones, M",1,Other/Non-UBC
+"Perez-Quinones, M",1,Other/Non-UBC
 "Largent, D",1,Other/Non-UBC
 "Roberson, C",1,Other/Non-UBC
 "Sgro, C",1,Other/Non-UBC
 "Wilson, L",1,Other/Non-UBC
 "Raby, G",1,Other/Non-UBC
 "Chapman, J",1,Other/Non-UBC
-De B,1,Other/Non-UBC
+"De Bruijn, R",1,Other/Non-UBC
 "Eliason, E",1,Other/Non-UBC
 "Elvidge, C",1,Other/Non-UBC
 "Hasler, C",1,Other/Non-UBC
 "Madliger, C",1,Other/Non-UBC
 "Nyboer, E",1,Other/Non-UBC
-"Reid, A",1,Other/Non-UBC
+"Reid, A",1,"Institute for Resources, Environment, and Sustainability"
 "Roche, D",1,Other/Non-UBC
 "Rytwinski, T",1,Other/Non-UBC
 "Ward, T",1,Other/Non-UBC
@@ -769,7 +764,7 @@ De B,1,Other/Non-UBC
 "Randles, B",2,Other/Non-UBC
 "Cheatle, A",2,Other/Non-UBC
 "Jung, M",1,Other/Non-UBC
-"Guimbretiere, F",1,Other/Non-UBC
+"Guimbretiere, F",2,Other/Non-UBC
 "Rawn, C",1,Other/Non-UBC
 "Rehrey, G",1,Other/Non-UBC
 "Molinaro, M",1,Other/Non-UBC
@@ -793,7 +788,7 @@ De B,1,Other/Non-UBC
 "Lichtenberg, G",1,Other/Non-UBC
 "Rieger, C",1,Other/Non-UBC
 "Sitwell, M",1,Other/Non-UBC
-"Carolan, J",1,Other/Non-UBC
+"Carolan, J",1,Physics and Astronomy
 "Leeuwner, J",1,Other/Non-UBC
 "Briseno, A",2,Other/Non-UBC
 "Yee, N",2,Other/Non-UBC
@@ -809,10 +804,10 @@ De B,1,Other/Non-UBC
 "Smith, M",5,Other/Non-UBC
 "Schrum, K",1,Other/Non-UBC
 "Osborn, H",1,Other/Non-UBC
-"Schütt, A",1,Other/Non-UBC
+"Schutt, A",1,Other/Non-UBC
 "Huber, T",1,Other/Non-UBC
 "Nasir, J",1,Other/Non-UBC
-"André, E",1,Other/Non-UBC
+"Andre, E",1,Other/Non-UBC
 "Scribner, E",1,Other/Non-UBC
 "Chun, M",1,Other/Non-UBC
 "Gallacher, C",1,Other/Non-UBC
@@ -825,8 +820,8 @@ Salisha A,1,Other/Non-UBC
 "Ahn, J",1,Other/Non-UBC
 "Mohan, S",1,Other/Non-UBC
 "Simon, B",1,Other/Non-UBC
-"Taylor, J",2,Other/Non-UBC
-"Spiegelman, G",2,Other/Non-UBC
+"Taylor, J",2,Biology
+"Spiegelman, G",2,Biology
 Francis H,1,Other/Non-UBC
 "Speer, N",1,Other/Non-UBC
 "Horvath, A",1,Other/Non-UBC
@@ -841,7 +836,7 @@ Francis H,1,Other/Non-UBC
 "Pillar, V",1,Other/Non-UBC
 "Mulvey, B",2,Other/Non-UBC
 "Authurs, L",1,Other/Non-UBC
-van d,3,Other/Non-UBC
+"van der Hoeven Kraft, K",3,Other/Non-UBC
 "Altiere, E",2,Other/Non-UBC
 "Egorova, Y",1,Other/Non-UBC
 "Ives, C",1,Other/Non-UBC
@@ -863,7 +858,7 @@ van d,3,Other/Non-UBC
 "Stokes, A",1,Other/Non-UBC
 "Feig, A",1,Other/Non-UBC
 "Atchison, C",1,Other/Non-UBC
-"Strubbe, L",3,Other/Non-UBC
+"Strubbe, L",3,Physics and Astronomy
 "Good, D",1,Other/Non-UBC
 "Zhang, J",2,Other/Non-UBC
 "White, H",2,Other/Non-UBC
@@ -874,7 +869,7 @@ van d,3,Other/Non-UBC
 "Ikape, M",1,Other/Non-UBC
 "Okouma, P",1,Other/Non-UBC
 "Ibik, A",1,Other/Non-UBC
-"Man, A",1,Other/Non-UBC
+"Man, A",1,Physics and Astronomy
 "Webb, S",1,Other/Non-UBC
 "Sun, E",4,Other/Non-UBC
 "Graves, M",5,Other/Non-UBC
@@ -916,8 +911,8 @@ van d,3,Other/Non-UBC
 "Gonzalez, S",1,Other/Non-UBC
 Van D,1,Other/Non-UBC
 "Verbert, K",1,Other/Non-UBC
-De C,1,Other/Non-UBC
-De L,2,Other/Non-UBC
+"De Croon, R",1,Other/Non-UBC
+"De Laet, T",2,Other/Non-UBC
 "Broos, T",1,Other/Non-UBC
 "Millecamp, M",1,Other/Non-UBC
 "Ochoa, X",1,Other/Non-UBC
@@ -936,9 +931,9 @@ De L,2,Other/Non-UBC
 "Mastronardi, M",1,Other/Non-UBC
 "Wang, J",1,Other/Non-UBC
 "Webb, A",1,Other/Non-UBC
-"Schimpf, N",1,Other/Non-UBC
+"Schimpf, N",1,Biology
 "Rodeldla, T",1,Other/Non-UBC
-"Schulte, P",1,Zoology
+"Schulte, P",1,Biology
 "Shaw, A",1,Other/Non-UBC
 "Whitehill, J",1,Other/Non-UBC
 "Lau, T",1,Other/Non-UBC
@@ -947,7 +942,7 @@ De L,2,Other/Non-UBC
 "Wong, R",1,Other/Non-UBC
 "Dhadwal, G",1,Other/Non-UBC
 "Fok, M",1,Other/Non-UBC
-"Harder, K",1,Other/Non-UBC
+"Harder, K",1,Biology
 "Huynh, H",1,Other/Non-UBC
 "Lunge, R",1,Other/Non-UBC
 "Mackenzie, M",1,Other/Non-UBC
@@ -970,10 +965,9 @@ De L,2,Other/Non-UBC
 "Yazon, J",1,Other/Non-UBC
 "Mayer-Smith, J",1,Other/Non-UBC
 "Chen, N",1,Other/Non-UBC
-"Löckenhoff, C",1,Other/Non-UBC
+"Lockenhoff, C",1,Other/Non-UBC
 "Jackson, S",1,Other/Non-UBC
 "Sellen, A",1,Other/Non-UBC
-"Guimbretière, F",1,Other/Non-UBC
 "Mitros, P",1,Other/Non-UBC
 "Zappa-Hollman, S",1,Other/Non-UBC
 "Zarkoob, H",4,Other/Non-UBC
@@ -984,7 +978,7 @@ De L,2,Other/Non-UBC
 "Zelenika, I",1,Other/Non-UBC
 "Moreau, T",1,Other/Non-UBC
 "Lane, O",1,Other/Non-UBC
-"Zhao, J",1,Other/Non-UBC
+"Zhao, J",1,"Institute for Resources, Environment, and Sustainability"
 "Zhou, C",1,Other/Non-UBC
 "Kuang, D",1,Other/Non-UBC
 "Liu, J",1,Other/Non-UBC

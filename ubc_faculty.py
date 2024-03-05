@@ -5,8 +5,10 @@ SKYLIGHT = [
     "Davy, E",
     "Elouazizi, N",
     "Goedhart, C",
+    "Jandciu, E",
     "Jeffery, E",
     "Koenig, S",
+    "Milner-Bolotin, M",
     "Zohreh, M",
     "Paton, K",
     "Ruosi, A",
@@ -19,8 +21,12 @@ IRES = [
     "Boyd, D",
     "Gantois, J",
     "Giang, A",
+    "Johnson, M",
     "Kremen, C",
-    "Oberg, G"
+    "Oberg, G",
+    "Öberg, G",
+    "Reid, A",
+    "Zhao, J"
 ]
 MSLAB = [
     "Blakney, A",
@@ -30,13 +36,70 @@ MSLAB = [
     "Fox, J"
 ]
 EOAS = [
+    "Groat, L",
     "Gilley, B",
     "Harris, S",
+    "Heagy, L",
     "Ivannochko, T",
     "d'Arcy, M",
     "Lukes, L",
     "Pete, S",
-    "White, R"
+    "Schoof, C",
+    "Sutherland, S",
+    "White, R",
+    "Caruthers, A",
+    "Gilley, B",
+    "Johnson, C",
+    "Schoof, C",
+    "Oldenburg, D",
+    "Steyn, D",
+    "Turner, D",
+    "Eberhardt, E",
+    "Olsen, E",
+    "Pakhomov, E",
+    "Andrews, G",
+    "Dipple, G",
+    "Finnis, J",
+    "Mortensen, J",
+    "Scoates, J",
+    "Chan, K",
+    "Hickey, K",
+    "Orians, K",
+    "Russell, K",
+    "Kennedy, L",
+    "Bevier, M",
+    "Bevier, M",
+    "Bostock, M",
+    "Jellinek, M",
+    "Johnson, M",
+    "Kopylova, M",
+    "Lipsen, M",
+    "Maldonado, M",
+    "Maldonado, M",
+    "Smit, M",
+    "Austin, P",
+    "Smith, P",
+    "Beckie, R",
+    "Francois, R",
+    "Pawlowicz, R",
+    "Stull, R",
+    "Allen, S",
+    "Harris, S",
+    "Hollingshead, S",
+    "McDougall, S",
+    "Mills, S",
+    "Sutherland, S",
+    "Dzikowski, T",
+    "Ivanochko, T",
+    "Mayer, U",
+    "Burt, W",
+    "Hsieh, W",
+    "Holland, T",
+    "Sherman, S",
+    "Kennedy, B",
+    "Lane, E",
+    "Jones, F",
+    "Caulkins, J"
 ]
 STAT = [
     "Dunham, B",
@@ -45,7 +108,13 @@ STAT = [
     "Heckman, N",
     "Lee, M",
     "Ostblom, J",
-    "Pleiss, G"
+    "Pleiss, G",
+    "Chang, B",
+    "Dunham, B",
+    "Yu, E",
+    "Nolde, N",
+    "Lim, Y",
+    "Yapa, G"
 ]
 MATH = [
     "Leung, F",
@@ -55,7 +124,55 @@ MATH = [
     "Yeager, E",
     "Cytrynbaum, E",
     "Loewen, P",
-    "Williams, T"
+    "Williams, T",
+    "Merchant, S",
+    "Rechnitzer, A",
+    "Walls, P",
+    "Liang, R",
+    "Lindsay, A",
+    "Raghoonundun, A",
+    "Zaman, A",
+    "de Oliveira, G",
+    "Karimfazli, I",
+    "Robson, L",
+    "Raggi, M",
+    "Willoughby, M",
+    "Bell, P",
+    "Schwarz, R",
+    "Kapoor, V",
+    "Thompson, W",
+    "Chau, A",
+    "Peirce, A",
+    "Rechnitzer, A",
+    "Homsy, B",
+    "Marcus, B",
+    "Wetton, B",
+    "Piccolo, C",
+    "Schoetzau, D",
+    "Cytrynbaum, E",
+    "S. Leung, F",
+    "Slade, G",
+    "Bryan, J",
+    "Gordon, J",
+    "MacDonald, J",
+    "Doebeli, M",
+    "MacLean, M",
+    "Ward, M",
+    "Yilmaz, O",
+    "Loewen, P",
+    "Anstee, R",
+    "Froese, R",
+    "Gupta, R",
+    "Gustafson, S",
+    "Ramdorai, S",
+    "van Willigenburg, S",
+    "Kim, Y",
+    "Reichstein, Z",
+    "Lo, J",
+    "Garaschuk, K",
+    "Yurasovskaya, K",
+    "Ottaway, P",
+    "Merchant, S"
 ]
 CPSC = [
     "Acton, D",
@@ -64,21 +181,61 @@ CPSC = [
     "Knorr, E",
     "Wolfman, S", 
     "Conati, C",
+    "Holmes, R",
+    "Kiczales, G",
     "Leyton-Brown, K",
     "MacLean, K",
     "McGrenere, J",
+    "Mochetti, K",
     "Ng, R",
     "Poole, D",
     "Pottinger, R",
+    "Seltzer, M",
     "Baniassad, E",
     "Bowman, W",
     "Heeren, C",
-    "Oluwakemi, O",
+    "Ola, O",
     "Margo, S",
     "Toti, G",
-    "Yoon, D"
+    "Yoon, D",
+    "Hutter, F",
+    "K. Pong, T",
+    "Knoll, B",
+    "Schneider, O",
+    "Southey, T",
+    "Condon, A",
+    "Conati, C",
+    "Acton, D",
+    "Lowe, D",
+    "Knorr, E",
+    "Wohlstadter, E",
+    "Carenini, G",
+    "Kiczales, G",
+    "Murphy, G",
+    "Tsiknis, G",
+    "Hoos, H",
+    "Mitchell, I",
+    "Little, J",
+    "McGrenere, J",
+    "Leyton-Brown, K",
+    "Maclean, K",
+    "Voll, K",
+    "Allen, M",
+    "Friedlander, M",
+    "Hutchinson, N",
+    "Carter, P",
+    "Ng, R",
+    "Pottinger, R",
+    "Woodham, R",
+    "Wolfman, S",
+    "Tew, A",
+    "Yu, B",
+    "Dawson, J",
+    "Golbeck, R",
+    "Lister, R"
 ]
-ZOOL = [
+BIOL = [
+    "Berger, J",
     "Kalas, P",
     "Aviles, L",
     "Pennell, M",
@@ -86,25 +243,131 @@ ZOOL = [
     "Redfield, R",
     "Schulte, P",
     "Srivastava, D",
-    "Steinwand, B"
+    "Steinwand, B",
+    "Oliver, D",
+    "Hallam, S",
+    "Harder, K",
+    "Chowrira, G",
+    "Klenz, J",
+    "Zeiler, K",
+    "Tseng, M",
+    "Clarkston, B",
+    "Michaletz, S",
+    "Lacombe, A",
+    "O’Neill, A",
+    "Milsom, B",
+    "Berezowsky, C",
+    "Altshuler, D",
+    "Moerman, D",
+    "Srivastava, D",
+    "Gaynor, E",
+    "Hammill, E",
+    "Bole, G",
+    "Bradfield, G",
+    "Haughn, G",
+    "Spiegelman, G",
+    "Klenz, J",
+    "Richards, J",
+    "Whitton, J",
+    "Lee, J",
+    "Nomme, K",
+    "Berbee, M",
+    "Hawkes, M",
+    "O’Connor, M",
+    "Johnson, P",
+    "Kalas, P",
+    "Matthews, P",
+    "Schulte, P",
+    "Jetter, R",
+    "Maurus, R",
+    "Turkington, R",
+    "Young, R",
+    "Chowrira, S",
+    "Ellis, S",
+    "Graham, S",
+    "Beatty, T",
+    "Kion, T",
+    "Auld, V",
+    "Bingle, W",
+    "Goodey, W",
+    "Mohn, W",
+    "Tetzlaff, W",
+    "Zhang, Y",
+    "Clarkston, B",
+    "Taylor, J",
+    "McDonnell, L",
+    "Weir, L",
+    "Banet, M",
+    "Barker, M",
+    "Hansen, M",
+    "Schimpf, N",
+    "Smith, K",
+    "Hallam, S"
 ]
 PHAS = [
     "Bates, S",
+    "Bonn, D",
     "Charbonneau, A",
     "Ives, J",
     "Rieger, G",
+    "Haber, E",
     "Milner, V",
     "Reinsberg, S",
     "Stamp, P",
-    "Man, Allison",
-    "McIver, J"
-]
-MICB = [
-    "Oliver, D",
-    "Hallam, S"
+    "Man, A",
+    "McIver, J",
+    "Wieman, C",
+    "Gendre, M",
+    "Holmes, N",
+    "Vernstrom, T",
+    "Boley, A",
+    "Kotlicki, A",
+    "Mackay, A",
+    "McCutcheon, B",
+    "Heiner, C",
+    "Wieman, C",
+    "Bonn, D",
+    "Bryman, D",
+    "Jones, D",
+    "Witt, D",
+    "Koster, E",
+    "Bates, F",
+    "Rieger, G",
+    "Affleck, I",
+    "Stairs, I",
+    "Charbonneau, J",
+    "Folk, J",
+    "Heyl, J",
+    "Iqbal, J",
+    "Ives, J",
+    "Karczmarek, J",
+    "McKenna, J",
+    "Roettler, J",
+    "Young, J",
+    "Zibin, J",
+    "Madison, K",
+    "Schleich, K",
+    "Deslauriers, L",
+    "Van Waerbeke, L",
+    "Hasinoff, M",
+    "Tovar, M",
+    "Van Raamsdonk, M",
+    "Burke, S",
+    "Matticon, T",
+    "Hinkov, V",
+    "Sossi, V",
+    "Stang, J",
+    "Strubbe, L",
+    "Heiner, C",
+    "Roll, I",
+    "Carolan, J",
+    "Day, J",
+    "Deslauriers, L",
+    "Newbury, P"
 ]
 CHEM = [
     "Addison, C",
+    "Algar, W",
     "Bussiere, G",
     "Monga, V",
     "Rodriguez-Nunez, J",
@@ -112,18 +375,38 @@ CHEM = [
     "Wickenden, J",
     "Dake, G",
     "Hein, J",
-    "Borduas-Dedekind, N"
-]
-BOTA = [
-    "Chowrira, G",
-    "Zeiler, K",
-    "Tseng, M",
-    "Clarkston, B",
-    "Michaletz, S"
+    "Borduas-Dedekind, N",
+    "Lekhi, A",
+    "Rogers, C",
+    "Bizzotto, D",
+    "Bussiere, G",
+    "Dake, G",
+    "Bates, J",
+    "Love, J",
+    "Rodriguez Nunez, J",
+    "Stewart, J",
+    "Schafer, L",
+    "Algar, R",
+    "Stoodley, R",
+    "Nussbaum, S",
+    "Kunz, T",
+    "Monga, V",
+    "Duis, J",
+    "Maxwell, E",
+    "Knox, K"
 ]
 
 def isUBC(name):
-    return (name in SKYLIGHT or name in IRES or name in MSLAB or name in EOAS or name in STAT or name in MATH or name in ZOOL or name in PHAS or name in MICB or name in CHEM or name in BOTA)
+    return (name in SKYLIGHT 
+            or name in IRES
+            or name in MSLAB 
+            or name in EOAS 
+            or name in STAT 
+            or name in MATH 
+            or name in CPSC 
+            or name in BIOL
+            or name in PHAS 
+            or name in CHEM) 
 
 def get_faculty(name):
     if name in SKYLIGHT:
@@ -140,16 +423,12 @@ def get_faculty(name):
         return 'Mathematics'
     if name in CPSC:
         return 'Computer Science'
-    if name in ZOOL:
-        return 'Zoology'
+    if name in BIOL:
+        return 'Biology'
     if name in PHAS:
         return 'Physics and Astronomy'
-    if name in MICB:
-        return 'Microbiology'
     if name in CHEM:
         return 'Chemistry'
-    if name in BOTA:
-        return 'Botany'
     else:
         return 'Other/Non-UBC'
     
@@ -158,4 +437,44 @@ def standard_name(fullname):
     if i == -1:
         return fullname
     else:
-        return fullname[:i+2]
+        return replaceAccents(fullname[:i+2])
+    
+ACCENTS = {
+    "Bussière, G": "Bussiere, G",
+    "Çinar, A": "Cinar, A",
+    "König, S": "Konig, S",
+    "Rodríguez N": "Rodriguez Nunez, J",
+    "Briseño-Garzón, A": "Briseno-Garzon, A",
+    "De B": "De Bruijn, R",
+    "Öberg, G": "Oberg, G",
+    "Häse, F": "Hase, F",
+    "Côté, E": "Cote, E",
+    "Gaševic, D": "Gasevic, D",
+    "Lallé, S": "Lalle, S",
+    "Yalçin, Ö": "Yalcin, O",
+    "Tasnádi, A": "Tasnadi, A",
+    "Ispánovity, P": "Ispanovity, P",
+    "Chávez, V": "Chavez, V",
+    "Peña, J": "Pena, J",
+    "Pérez-Quiñones, M": "Perez-Quinones, M",
+    "Schütt, A": "Schutt, A",
+    "André, E": "Andre, E",
+    "Löckenhoff, C": "Lockenhoff, C",
+    "Guimbretière, F": "Guimbretiere, F",
+    "El K": "El Khoury, E",
+    "Del C": "Del Campo, M",
+    "Le Magueres, P": "Le Magueres, P",
+    "von O": "von Oppen, J",
+    "De A": "De Andrade, E",
+    "St J": "St John, K",
+    "Ururay F": "Ururay Fragoso Araujo, T",
+    "Domingos C": "Domingos Correia Santos, C",
+    "van d": "van der Hoeven Kraft, K",
+    "De C": "De Croon, R",
+    "De L": "De Laet, T"
+}
+
+def replaceAccents(name):
+    if name in ACCENTS.keys():
+        return ACCENTS[name]
+    else: return name
