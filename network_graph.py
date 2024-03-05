@@ -4,8 +4,8 @@ import csv
 from ubc_faculty import isUBC, get_faculty, standard_name
 
 ## Network graph here: https://public.flourish.studio/visualisation/16796700/
-
-data = pd.read_csv('SciPub/input/clean_data.csv')
+dataPath = 'SciPub/input/clean_data.csv'
+data = pd.read_csv(dataPath)
 data.sort_values(['Author'], axis=0, inplace=True)
 authors = data['Author'].dropna()
 
@@ -21,8 +21,8 @@ for item in authors:
         else:
             authors_dict[name] = 1
 
-
-with open('SciPub/output/author_nodes.csv', 'w', newline='') as file:
+nodeWritePath = 'SciPub/output/author_nodes.csv'
+with open(nodeWritePath, 'w', newline='') as file:
     writer = csv.writer(file)
     field = ["name", "size", "faculty"]    
     writer.writerow(field)
@@ -43,8 +43,9 @@ for item in authors:
             if (isUBC(name1) or isUBC(name2)):
                 edge = [name1, name2]
                 authors_list.append(edge)
-
-with open('SciPub/output/author_edges.csv', 'w', newline='') as file:
+                
+edgeWritePath ='SciPub/output/author_edges.csv'
+with open(edgeWritePath, 'w', newline='') as file:
     writer = csv.writer(file)
     field = ["source", "target"]    
     writer.writerow(field)

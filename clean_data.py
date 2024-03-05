@@ -2,7 +2,8 @@ import pandas as pd
 import re
 
 # Read the CSV file
-df = pd.read_csv('SciPub/input/data.csv')
+inputDataPath = 'SciPub/input/data.csv'
+df = pd.read_csv(inputDataPath)
 
 # Define a function to remove special characters from a string
 def remove_special_characters(text):
@@ -19,7 +20,8 @@ def remove_special_characters(text):
 df = df.applymap(remove_special_characters)
 
 # Save the modified dataframe to a new CSV file
-df.to_csv('SciPub/input/clean_data.csv', index=False)
+cleanedDataPath = 'SciPub/input/clean_data.csv'
+df.to_csv(cleanedDataPath, index=False)
 print("Data cleaned")
 
 # there may also be some nan in columns Authors or Manual Tags
