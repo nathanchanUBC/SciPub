@@ -9,5 +9,7 @@ The scripts that we have are:
 4. network_graph.py: creates a list of nodes and edges to create a [network graph](https://public.flourish.studio/visualisation/16796700/)
 5. ubc_faculty.py: contains a list of UBC faculty, their departments, and some helpers
 
+Things to change:
 ### TODO:
-- Skylight GitHub account? 
+- Skylight GitHub account?
+- Complete instructions on how execute code
