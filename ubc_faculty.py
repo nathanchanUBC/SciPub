@@ -236,6 +236,7 @@ CPSC = [
 ]
 BIOL = [
     "Berger, J",
+    "Graves, M",
     "Kalas, P",
     "Aviles, L",
     "Pennell, M",
@@ -442,6 +443,7 @@ def standard_name(fullname):
 ACCENTS = {
     "Bussière, G": "Bussiere, G",
     "Çinar, A": "Cinar, A",
+    "Çınar, A": "Cinar, A",
     "König, S": "Konig, S",
     "Rodríguez N": "Rodriguez Nunez, J",
     "Briseño-Garzón, A": "Briseno-Garzon, A",
@@ -450,8 +452,10 @@ ACCENTS = {
     "Häse, F": "Hase, F",
     "Côté, E": "Cote, E",
     "Gaševic, D": "Gasevic, D",
+    "Gašević, D": "Gasevic, D",
     "Lallé, S": "Lalle, S",
     "Yalçin, Ö": "Yalcin, O",
+    "Yalçın, Ö": "Yalcin, O",
     "Tasnádi, A": "Tasnadi, A",
     "Ispánovity, P": "Ispanovity, P",
     "Chávez, V": "Chavez, V",
@@ -471,7 +475,8 @@ ACCENTS = {
     "Domingos C": "Domingos Correia Santos, C",
     "van d": "van der Hoeven Kraft, K",
     "De C": "De Croon, R",
-    "De L": "De Laet, T"
+    "De L": "De Laet, T",
+    "Ağar, B": "Agar, B"
 }
 
 def replaceAccents(name):

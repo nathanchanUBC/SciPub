@@ -14,12 +14,9 @@ name,size,faculty
 "Yu, B",1,Computer Science
 "Adams, W",2,Other/Non-UBC
 "Gilley, B",14,"Earth, Ocean and Atmospheric Sciences"
-"Agar, B",1,Other/Non-UBC
-"Birol, G",39,Skylight
-"Cinar, A",5,Other/Non-UBC
 "Algar, W",4,Chemistry
 "Elouazizi, N",2,Skylight
-"Stewart, J",12,Skylight
+"Stewart, J",13,Skylight
 "Maxwell, E",3,Chemistry
 "Tan, T",1,Other/Non-UBC
 "Zhang, Z",4,Other/Non-UBC
@@ -118,6 +115,9 @@ name,size,faculty
 "You, S",1,Other/Non-UBC
 "Zarbin, A",1,Other/Non-UBC
 "Zhang, H",1,Other/Non-UBC
+"Agar, B",1,Other/Non-UBC
+"Birol, G",39,Skylight
+"Cinar, A",5,Other/Non-UBC
 "Baldwin, D",1,Other/Non-UBC
 "Marion, B",1,Other/Non-UBC
 "Sitaraman, M",1,Other/Non-UBC
@@ -209,7 +209,7 @@ name,size,faculty
 "Crosson, L",1,Other/Non-UBC
 "Fahrenbach, J",1,Other/Non-UBC
 "Gonzalez, M",1,Other/Non-UBC
-"Smith, J",3,Other/Non-UBC
+"Smith, J",2,Other/Non-UBC
 "Welsh, A",15,Skylight
 "Liu, S",2,Other/Non-UBC
 "Hirsch, P",3,Other/Non-UBC
@@ -220,9 +220,9 @@ name,size,faculty
 "Simpson, S",1,Other/Non-UBC
 "Sutherland, S",3,"Earth, Ocean and Atmospheric Sciences"
 "Seller, A",1,Other/Non-UBC
-"Blaser, M",1,Other/Non-UBC
-"Clark, T",1,Other/Non-UBC
-"Lamont, L",1,Other/Non-UBC
+"Blaser, M",2,Other/Non-UBC
+"Clark, T",2,Other/Non-UBC
+"Lamont, L",2,Other/Non-UBC
 "Boesen, T",1,Other/Non-UBC
 "Haber, E",1,Physics and Astronomy
 "Boicu, M",1,Other/Non-UBC
@@ -422,7 +422,7 @@ Le M,1,Other/Non-UBC
 "Enquist, B",1,Other/Non-UBC
 "Vandvik, V",1,Other/Non-UBC
 "Gilbert, S",4,Other/Non-UBC
-"Jones, F",14,"Earth, Ocean and Atmospheric Sciences"
+"Jones, F",15,"Earth, Ocean and Atmospheric Sciences"
 "Gin, L",1,Other/Non-UBC
 "Rowland, A",1,Other/Non-UBC
 "Bruno, J",1,Other/Non-UBC
@@ -476,7 +476,7 @@ Le M,1,Other/Non-UBC
 "Anderson, J",1,Other/Non-UBC
 "Troy, J",1,Other/Non-UBC
 "Holland, T",2,"Earth, Ocean and Atmospheric Sciences"
-Anthony H,1,Other/Non-UBC
+"Park, A",1,Other/Non-UBC
 "Martinuk, M",2,Other/Non-UBC
 "Warren, M",1,Other/Non-UBC
 "Craig, M",1,Other/Non-UBC
@@ -605,7 +605,7 @@ Anthony H,1,Other/Non-UBC
 "McConnell, D",2,Other/Non-UBC
 "St John, K",3,Other/Non-UBC
 "Mazabel, S",3,Other/Non-UBC
-"Pete, S",3,"Earth, Ocean and Atmospheric Sciences"
+"Pete, S",4,"Earth, Ocean and Atmospheric Sciences"
 "Millsaps, C",1,Other/Non-UBC
 "Lockwood, R",2,Other/Non-UBC
 "Uhen, M",2,Other/Non-UBC
@@ -716,6 +716,7 @@ Anthony H,1,Other/Non-UBC
 "Romero, C",1,Other/Non-UBC
 "Stamper, J",1,Other/Non-UBC
 International E,1,Other/Non-UBC
+"Salisha, A",1,Other/Non-UBC
 "Pleiss, G",1,Statistics
 "Perry, M",1,Other/Non-UBC
 "Zastavker, Y",1,Other/Non-UBC
@@ -814,17 +815,12 @@ International E,1,Other/Non-UBC
 "Semsar, K",1,Other/Non-UBC
 "Knight, J",1,Other/Non-UBC
 "Tang, J",1,Other/Non-UBC
-Shandin H,1,Other/Non-UBC
-Salisha A,1,Other/Non-UBC
 "Sien, S",2,Other/Non-UBC
 "Ahn, J",1,Other/Non-UBC
 "Mohan, S",1,Other/Non-UBC
 "Simon, B",1,Other/Non-UBC
 "Taylor, J",2,Biology
 "Spiegelman, G",2,Biology
-Francis H,1,Other/Non-UBC
-"Speer, N",1,Other/Non-UBC
-"Horvath, A",1,Other/Non-UBC
 "Srinivasa, R",1,Other/Non-UBC
 "Winter, M",1,Other/Non-UBC
 "Gross, L",1,Other/Non-UBC
@@ -872,7 +868,7 @@ Francis H,1,Other/Non-UBC
 "Man, A",1,Physics and Astronomy
 "Webb, S",1,Other/Non-UBC
 "Sun, E",4,Other/Non-UBC
-"Graves, M",5,Other/Non-UBC
+"Graves, M",5,Biology
 "Huggins, J",1,Other/Non-UBC
 "Brown, K",1,Other/Non-UBC
 "Boutin, R",1,Other/Non-UBC
@@ -930,6 +926,7 @@ Van D,1,Other/Non-UBC
 "Hoch, L",1,Other/Non-UBC
 "Mastronardi, M",1,Other/Non-UBC
 "Wang, J",1,Other/Non-UBC
+"Weaver, G",1,Other/Non-UBC
 "Webb, A",1,Other/Non-UBC
 "Schimpf, N",1,Biology
 "Rodeldla, T",1,Other/Non-UBC
