@@ -18,7 +18,7 @@ The scripts that we have are:
 - Would recommend using the Rainbow CSV VSCode Extension for easier to read CSV's
 ## Program Setup
 1. Clone this project
-2. Replace the SciPub/input/data.csv with your personalized exported Zotero library (in CSV)
+2. Replace the SciPub/input/data.csv with your personalized exported Zotero library (in CSV). This is the raw data
 3. Rename the replaced file to data.csv
 ## Executing Program Using VSCode
 1. First, run clean_data.py in VSCode by pressing the arrow symbol, "Run Python File"
@@ -27,4 +27,4 @@ The scripts that we have are:
 
 ### TODO:
 - Skylight GitHub account?
-- Complete instructions on how execute code
+- Mention ubc_faculty.py
