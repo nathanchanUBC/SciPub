@@ -28,7 +28,7 @@ The scripts that we have are:
 3. Depending on the data you require, run the respective scripts listed above. All generated files can be found in SciPub/output
 
 ## Closing Remarks
-- If there are conflicitng name formats in the cleaned_data.csv, standardize them in the dictionary, standardizedNames, in SciPub/ubc_faculty.py
+- If there are conflicitng name formats (excluding accents) in the cleaned_data.csv, standardize them in the dictionary, standardizedNames, in SciPub/ubc_faculty.py
 - Make sure that the key doesn't include any accents otherwise they won't appear in the generated csvs!
 ### TODO:
 - Skylight GitHub account?
