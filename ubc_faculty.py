@@ -1,3 +1,4 @@
+from unidecode import unidecode
 SKYLIGHT = [
     "Stewart, J",
     "Birol, G",
@@ -434,37 +435,16 @@ def get_faculty(name):
         return 'Other/Non-UBC'
     
 def standard_name(fullname):
+    fullname = removeAccents(fullname)
     i = fullname.find(' ')
     if i == -1:
         return fullname
     else:
-        return replaceAccents(fullname[:i+2])
+        return standardize(fullname[:i+2])
     
-ACCENTS = {
-    "Bussière, G": "Bussiere, G",
-    "Çinar, A": "Cinar, A",
-    "Çınar, A": "Cinar, A",
-    "König, S": "Konig, S",
-    "Rodríguez N": "Rodriguez Nunez, J",
-    "Briseño-Garzón, A": "Briseno-Garzon, A",
+standardizedNames = {
+    "Rodriguez N": "Rodriguez Nunez, J",
     "De B": "De Bruijn, R",
-    "Öberg, G": "Oberg, G",
-    "Häse, F": "Hase, F",
-    "Côté, E": "Cote, E",
-    "Gaševic, D": "Gasevic, D",
-    "Gašević, D": "Gasevic, D",
-    "Lallé, S": "Lalle, S",
-    "Yalçin, Ö": "Yalcin, O",
-    "Yalçın, Ö": "Yalcin, O",
-    "Tasnádi, A": "Tasnadi, A",
-    "Ispánovity, P": "Ispanovity, P",
-    "Chávez, V": "Chavez, V",
-    "Peña, J": "Pena, J",
-    "Pérez-Quiñones, M": "Perez-Quinones, M",
-    "Schütt, A": "Schutt, A",
-    "André, E": "Andre, E",
-    "Löckenhoff, C": "Lockenhoff, C",
-    "Guimbretière, F": "Guimbretiere, F",
     "El K": "El Khoury, E",
     "Del C": "Del Campo, M",
     "Le Magueres, P": "Le Magueres, P",
@@ -476,10 +456,12 @@ ACCENTS = {
     "van d": "van der Hoeven Kraft, K",
     "De C": "De Croon, R",
     "De L": "De Laet, T",
-    "Ağar, B": "Agar, B"
 }
 
-def replaceAccents(name):
-    if name in ACCENTS.keys():
-        return ACCENTS[name]
+def standardize(name):
+    if name in standardizedNames.keys():
+        return standardizedNames[name]
     else: return name
+
+def removeAccents(names):
+    return unidecode(names)
