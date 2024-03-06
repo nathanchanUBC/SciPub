@@ -14,18 +14,22 @@ The scripts that we have are:
 # Getting Started
 ## Computer Setup
 - Please have [VSCode](https://code.visualstudio.com/) and the [Python Extension](https://code.visualstudio.com/docs/python/python-tutorial#_prerequisites) installed
-- Please have Git installed
-- Would recommend using the Rainbow CSV VSCode Extension for easier to read CSV's
+- Please have [Git](https://git-scm.com/downloads) installed
+- We recommend using the Rainbow CSV VSCode Extension for CSV readability
 - Have the following packages installed: [Pandas](https://pypi.org/project/pandas/), [Unidecode](https://pypi.org/project/Unidecode/) 
 ## Program Setup
 1. [Clone this project](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 2. Replace the SciPub/input/data.csv with your personalized exported Zotero library (in CSV). This is the raw data
 3. Rename the replaced file to data.csv
+
 ## Executing Program Using VSCode
 1. First, run clean_data.py in VSCode by pressing the arrow symbol, "Run Python File"
 2. In the SciPub/input, check that clean_data.csv has been updated
 3. Depending on the data you require, run the respective scripts listed above. All generated files can be found in SciPub/output
 
+## Closing Remarks
+- If there are conflicitng name formats in the cleaned_data.csv, standardize them in the dictionary, standardizedNames, in SciPub/ubc_faculty.py
+- Make sure that the key doesn't include any accents otherwise they won't appear in the generated csvs!
 ### TODO:
 - Skylight GitHub account?
 - Mention ubc_faculty.py
