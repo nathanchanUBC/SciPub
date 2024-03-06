@@ -9,7 +9,7 @@ The scripts that we have are:
 3. tags.py: Creates a list of tags and number of occurences
 4. network_graph.py: Creates a list of nodes and edges to create a [network graph](https://public.flourish.studio/visualisation/16796700/)
 5. ubc_faculty.py: Contains a list of UBC faculty, their departments, and some helper functions
-6. pathNames.py: Contains 
+6. pathNames.py: Contains the absolute paths of all files used
 
 # Getting Started
 ## Computer Setup
