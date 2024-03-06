@@ -14,10 +14,10 @@ The scripts that we have are:
 # Getting Started
 ## Computer Setup
 - Please have [VSCode](https://code.visualstudio.com/) and the [Python Extension](https://code.visualstudio.com/docs/python/python-tutorial#_prerequisites) installed
-- Please have Git 
+- Please have Git installed
 - Would recommend using the Rainbow CSV VSCode Extension for easier to read CSV's
 ## Program Setup
-1. Clone this project
+1. [Clone this project](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 2. Replace the SciPub/input/data.csv with your personalized exported Zotero library (in CSV). This is the raw data
 3. Rename the replaced file to data.csv
 ## Executing Program Using VSCode
