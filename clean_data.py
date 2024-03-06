@@ -17,7 +17,7 @@ def remove_special_characters(text):
     return re.sub(pattern, '', text)
 
 # Apply the function to each cell in the dataframe
-df = df.applymap(remove_special_characters)
+df = df.map(remove_special_characters)
 
 # Save the modified dataframe to a new CSV file
 
