@@ -16,6 +16,7 @@ The scripts that we have are:
 - Please have [VSCode](https://code.visualstudio.com/) and the [Python Extension](https://code.visualstudio.com/docs/python/python-tutorial#_prerequisites) installed
 - Please have Git installed
 - Would recommend using the Rainbow CSV VSCode Extension for easier to read CSV's
+- Have the following packages installed: [Pandas](https://pypi.org/project/pandas/), [Unidecode](https://pypi.org/project/Unidecode/) 
 ## Program Setup
 1. [Clone this project](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 2. Replace the SciPub/input/data.csv with your personalized exported Zotero library (in CSV). This is the raw data
