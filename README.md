@@ -20,8 +20,11 @@ The scripts that we have are:
 1. Clone this project
 2. Replace the SciPub/input/data.csv with your personalized exported Zotero library (in CSV)
 3. Rename the replaced file to data.csv
-## Executing Program
-Things to change:
+## Executing Program Using VSCode
+1. First, run clean_data.py in VSCode by pressing the arrow symbol, "Run Python File"
+2. In the SciPub/input, check that clean_data.csv has been updated
+3. Depending on the data you require, run the respective scripts listed above. All generated files can be found in SciPub/output
+
 ### TODO:
 - Skylight GitHub account?
 - Complete instructions on how execute code
