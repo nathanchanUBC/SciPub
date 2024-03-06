@@ -14,7 +14,8 @@ The scripts that we have are:
 # Getting Started
 ## Computer Setup
 - Please have [VSCode](https://code.visualstudio.com/) and the [Python Extension](https://code.visualstudio.com/docs/python/python-tutorial#_prerequisites) installed
-- Please have Git installed
+- Please have Git 
+- Would recommend using the Rainbow CSV VSCode Extension for easier to read CSV's
 ## Program Setup
 1. Clone this project
 2. Replace the SciPub/input/data.csv with your personalized exported Zotero library (in CSV)
