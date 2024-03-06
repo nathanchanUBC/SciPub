@@ -2,8 +2,10 @@ import pandas as pd
 import csv
 
 from ubc_faculty import isUBC, standard_name, get_faculty
-dataPath = 'SciPub/input/clean_data.csv'
-data = pd.read_csv(dataPath)
+from pathNames import cleanDataPath, UBCAuthorWritePath, journalAuthorWritePath
+
+
+data = pd.read_csv(cleanDataPath)
 data.sort_values(['Title'], axis=0, inplace=True)
 articles = data[['Author', 'Manual Tags', 'Item Type']].dropna()
 
@@ -27,7 +29,7 @@ for index, row in articles.iterrows():
                 else:
                     authors_dict[name] = 1
                     
-UBCAuthorWritePath = 'SciPub/output/pubUBC_authors.csv'
+
 with open(UBCAuthorWritePath, 'w', newline='') as file:
     writer = csv.writer(file)
     field = ["name", "size"]    
@@ -58,7 +60,6 @@ for index, row in articles.iterrows():
                 else:
                     authors_dict[name] = 1
 
-journalAuthorWritePath = 'SciPub/output/pubUBC_isJournal_authors.csv'
 with open(journalAuthorWritePath, 'w', newline='') as file:
     writer = csv.writer(file)
     field = ["name", "size"]    

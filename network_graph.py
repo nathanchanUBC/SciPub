@@ -2,10 +2,10 @@ import pandas as pd
 import csv
 
 from ubc_faculty import isUBC, get_faculty, standard_name
+from pathNames import cleanDataPath, nodeWritePath, edgeWritePath
 
 ## Network graph here: https://public.flourish.studio/visualisation/16796700/
-dataPath = 'SciPub/input/clean_data.csv'
-data = pd.read_csv(dataPath)
+data = pd.read_csv(cleanDataPath)
 data.sort_values(['Author'], axis=0, inplace=True)
 authors = data['Author'].dropna()
 
@@ -21,7 +21,7 @@ for item in authors:
         else:
             authors_dict[name] = 1
 
-nodeWritePath = 'SciPub/output/author_nodes.csv'
+
 with open(nodeWritePath, 'w', newline='') as file:
     writer = csv.writer(file)
     field = ["name", "size", "faculty"]    
@@ -44,7 +44,6 @@ for item in authors:
                 edge = [name1, name2]
                 authors_list.append(edge)
                 
-edgeWritePath ='SciPub/output/author_edges.csv'
 with open(edgeWritePath, 'w', newline='') as file:
     writer = csv.writer(file)
     field = ["source", "target"]    

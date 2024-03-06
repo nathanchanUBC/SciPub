@@ -1,8 +1,8 @@
 import pandas as pd
 import csv
+from pathNames import cleanDataPath, tagsPath
 
-dataPath = 'SciPub/input/clean_data.csv' #change this to personal file path
-data = pd.read_csv(dataPath)
+data = pd.read_csv(cleanDataPath)
 data.sort_values(['Title'], axis=0, inplace=True)
 articles = data[['Author', 'Manual Tags', 'Item Type']].dropna()
 
@@ -16,8 +16,8 @@ for index, row in articles.iterrows():
         else:
             tags_dict[i] = 1
 
-writePath = 'SciPub/output/pubTags.csv' #change this to personal file path
-with open(writePath, 'w', newline='' ) as file:
+
+with open(tagsPath, 'w', newline='' ) as file:
     writer = csv.writer(file)
     field = ["Tag", "Size"]
     writer.writerow(field)
