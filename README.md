@@ -26,10 +26,11 @@ The scripts that we have are:
 1. First, run clean_data.py in VSCode by pressing the arrow symbol, "Run Python File"
 2. In the SciPub/input, check that clean_data.csv has been updated
 3. Depending on the data you require, run the respective scripts listed above. All generated files can be found in SciPub/output
+4. Alternatively, you can run "SciPub/runAll.py" to clean then generate all files
 
 ## Closing Remarks
 - If there are conflicitng name formats (excluding accents) in the cleaned_data.csv, standardize them in the dictionary, standardizedNames, in SciPub/ubc_faculty.py
 - Make sure that the key doesn't include any accents otherwise they won't appear in the generated csvs!
 ### TODO:
 - Skylight GitHub account?
-- Mention ubc_faculty.py
+
