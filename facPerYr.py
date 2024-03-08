@@ -59,4 +59,4 @@ with open(facPerYrPath, 'w', newline='') as file:
         for year, count in year_counts.items():
             writer.writerow([display_faculty, year, count])
 
-print("File generated")
+print("Faculty Per Year file generated!")

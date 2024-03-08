@@ -29,3 +29,5 @@ with open(confPath, 'w', newline='') as file:
     writer.writerow(field)
     for i in conf_dict:
         writer.writerow([i,conf_dict[i]])
+
+print("Conference file generated!")

@@ -66,3 +66,5 @@ with open(journalAuthorWritePath, 'w', newline='') as file:
     writer.writerow(field)
     for i in authors_dict:
         writer.writerow([i, authors_dict[i]])
+
+print("Author file generated!")

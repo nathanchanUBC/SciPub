@@ -1,7 +1,6 @@
 import pandas as pd
 import re
 from pathNames import rawDataPath, cleanDataPath
-from ubc_faculty import removeAccents
 # Read the CSV file
 
 df = pd.read_csv(rawDataPath)
@@ -23,6 +22,6 @@ df = df.map(remove_special_characters)
 # Save the modified dataframe to a new CSV file
 
 df.to_csv(cleanDataPath, index=False)
-print("Data cleaned")
+print("Data cleaned!")
 
 # there may also be some nan in columns Authors or Manual Tags

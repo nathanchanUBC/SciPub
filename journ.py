@@ -29,3 +29,5 @@ with open(journPath, 'w', newline='') as file:
     writer.writerow(field)
     for i in journ_dict:
         writer.writerow([i,journ_dict[i]])
+
+print("Journal file generated!")
