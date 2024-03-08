@@ -23,6 +23,20 @@ for index, row in articles.iterrows():
             else:
                 journ_dict[i] =1
                 
+
+### Uncomment lines 28-38 if want to group single counts under "Other"
+# other_count = 0
+
+# for title, count in journ_dict.items():
+#     if count == 1:
+#         other_count+=1
+
+# journ_dict["Other"] = other_count
+
+# for title, count in list(journ_dict.items()): 
+#     if count == 1 and title != "Other":
+#         del journ_dict[title]
+
 with open(journPath, 'w', newline='') as file:
     writer = csv.writer(file)
     field = ["Title", "Count"]
@@ -30,4 +44,4 @@ with open(journPath, 'w', newline='') as file:
     for i in journ_dict:
         writer.writerow([i,journ_dict[i]])
 
-print("Journal file generated!")
+print("Journal count generated")

@@ -21,7 +21,7 @@ with open(tagsPath, 'w', newline='' ) as file:
     writer = csv.writer(file)
     field = ["Tag", "Size"]
     writer.writerow(field)
-    for i in tags_dict:
-        writer.writerow([i, tags_dict[i]])
+    for tags, count in tags_dict.items():
+        writer.writerow([tags,count])
 
 print("Tags file generated")

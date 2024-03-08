@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
 
-from ubc_faculty import isUBC, standard_name, get_faculty, removeAccents
+from ubc_faculty import isUBC, standard_name
 from pathNames import cleanDataPath, UBCAuthorWritePath, journalAuthorWritePath
 
 
