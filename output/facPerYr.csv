@@ -1,0 +1,326 @@
+Faculty,Year,Count
+Microbiology,2000,0
+Microbiology,2001,0
+Microbiology,2002,0
+Microbiology,2003,0
+Microbiology,2004,0
+Microbiology,2005,0
+Microbiology,2006,0
+Microbiology,2007,0
+Microbiology,2008,0
+Microbiology,2009,1
+Microbiology,2010,0
+Microbiology,2011,0
+Microbiology,2012,1
+Microbiology,2013,0
+Microbiology,2014,1
+Microbiology,2015,0
+Microbiology,2016,0
+Microbiology,2017,0
+Microbiology,2018,0
+Microbiology,2019,0
+Microbiology,2020,3
+Microbiology,2021,1
+Microbiology,2022,1
+Microbiology,2023,0
+Microbiology,2024,0
+Biology,2000,0
+Biology,2001,0
+Biology,2002,1
+Biology,2003,0
+Biology,2004,0
+Biology,2005,0
+Biology,2006,0
+Biology,2007,0
+Biology,2008,0
+Biology,2009,2
+Biology,2010,2
+Biology,2011,1
+Biology,2012,0
+Biology,2013,3
+Biology,2014,6
+Biology,2015,0
+Biology,2016,3
+Biology,2017,1
+Biology,2018,2
+Biology,2019,5
+Biology,2020,1
+Biology,2021,6
+Biology,2022,1
+Biology,2023,5
+Biology,2024,0
+"Earth, Ocean and Atmospheric Sciences",2000,1
+"Earth, Ocean and Atmospheric Sciences",2001,0
+"Earth, Ocean and Atmospheric Sciences",2002,0
+"Earth, Ocean and Atmospheric Sciences",2003,0
+"Earth, Ocean and Atmospheric Sciences",2004,1
+"Earth, Ocean and Atmospheric Sciences",2005,0
+"Earth, Ocean and Atmospheric Sciences",2006,0
+"Earth, Ocean and Atmospheric Sciences",2007,0
+"Earth, Ocean and Atmospheric Sciences",2008,3
+"Earth, Ocean and Atmospheric Sciences",2009,3
+"Earth, Ocean and Atmospheric Sciences",2010,3
+"Earth, Ocean and Atmospheric Sciences",2011,1
+"Earth, Ocean and Atmospheric Sciences",2012,5
+"Earth, Ocean and Atmospheric Sciences",2013,5
+"Earth, Ocean and Atmospheric Sciences",2014,14
+"Earth, Ocean and Atmospheric Sciences",2015,4
+"Earth, Ocean and Atmospheric Sciences",2016,2
+"Earth, Ocean and Atmospheric Sciences",2017,4
+"Earth, Ocean and Atmospheric Sciences",2018,3
+"Earth, Ocean and Atmospheric Sciences",2019,8
+"Earth, Ocean and Atmospheric Sciences",2020,6
+"Earth, Ocean and Atmospheric Sciences",2021,1
+"Earth, Ocean and Atmospheric Sciences",2022,4
+"Earth, Ocean and Atmospheric Sciences",2023,6
+"Earth, Ocean and Atmospheric Sciences",2024,0
+Michael Smith Laboratories,2000,0
+Michael Smith Laboratories,2001,0
+Michael Smith Laboratories,2002,0
+Michael Smith Laboratories,2003,0
+Michael Smith Laboratories,2004,0
+Michael Smith Laboratories,2005,0
+Michael Smith Laboratories,2006,0
+Michael Smith Laboratories,2007,0
+Michael Smith Laboratories,2008,0
+Michael Smith Laboratories,2009,0
+Michael Smith Laboratories,2010,0
+Michael Smith Laboratories,2011,0
+Michael Smith Laboratories,2012,0
+Michael Smith Laboratories,2013,1
+Michael Smith Laboratories,2014,5
+Michael Smith Laboratories,2015,0
+Michael Smith Laboratories,2016,0
+Michael Smith Laboratories,2017,2
+Michael Smith Laboratories,2018,1
+Michael Smith Laboratories,2019,0
+Michael Smith Laboratories,2020,0
+Michael Smith Laboratories,2021,1
+Michael Smith Laboratories,2022,1
+Michael Smith Laboratories,2023,0
+Michael Smith Laboratories,2024,0
+Computer Science,2000,0
+Computer Science,2001,1
+Computer Science,2002,1
+Computer Science,2003,2
+Computer Science,2004,1
+Computer Science,2005,0
+Computer Science,2006,2
+Computer Science,2007,0
+Computer Science,2008,2
+Computer Science,2009,3
+Computer Science,2010,6
+Computer Science,2011,3
+Computer Science,2012,4
+Computer Science,2013,6
+Computer Science,2014,6
+Computer Science,2015,7
+Computer Science,2016,3
+Computer Science,2017,7
+Computer Science,2018,8
+Computer Science,2019,14
+Computer Science,2020,11
+Computer Science,2021,19
+Computer Science,2022,16
+Computer Science,2023,16
+Computer Science,2024,1
+Chemistry,2000,0
+Chemistry,2001,0
+Chemistry,2002,0
+Chemistry,2003,0
+Chemistry,2004,0
+Chemistry,2005,0
+Chemistry,2006,0
+Chemistry,2007,0
+Chemistry,2008,0
+Chemistry,2009,1
+Chemistry,2010,1
+Chemistry,2011,0
+Chemistry,2012,0
+Chemistry,2013,1
+Chemistry,2014,1
+Chemistry,2015,1
+Chemistry,2016,1
+Chemistry,2017,0
+Chemistry,2018,1
+Chemistry,2019,8
+Chemistry,2020,1
+Chemistry,2021,2
+Chemistry,2022,2
+Chemistry,2023,2
+Chemistry,2024,0
+Physics and Astronomy,2000,0
+Physics and Astronomy,2001,0
+Physics and Astronomy,2002,0
+Physics and Astronomy,2003,0
+Physics and Astronomy,2004,0
+Physics and Astronomy,2005,0
+Physics and Astronomy,2006,0
+Physics and Astronomy,2007,1
+Physics and Astronomy,2008,0
+Physics and Astronomy,2009,0
+Physics and Astronomy,2010,1
+Physics and Astronomy,2011,6
+Physics and Astronomy,2012,2
+Physics and Astronomy,2013,8
+Physics and Astronomy,2014,11
+Physics and Astronomy,2015,1
+Physics and Astronomy,2016,9
+Physics and Astronomy,2017,5
+Physics and Astronomy,2018,2
+Physics and Astronomy,2019,3
+Physics and Astronomy,2020,5
+Physics and Astronomy,2021,3
+Physics and Astronomy,2022,2
+Physics and Astronomy,2023,7
+Physics and Astronomy,2024,0
+Mathematics,2000,0
+Mathematics,2001,0
+Mathematics,2002,0
+Mathematics,2003,0
+Mathematics,2004,0
+Mathematics,2005,0
+Mathematics,2006,1
+Mathematics,2007,0
+Mathematics,2008,1
+Mathematics,2009,0
+Mathematics,2010,3
+Mathematics,2011,1
+Mathematics,2012,2
+Mathematics,2013,2
+Mathematics,2014,1
+Mathematics,2015,0
+Mathematics,2016,1
+Mathematics,2017,2
+Mathematics,2018,0
+Mathematics,2019,5
+Mathematics,2020,3
+Mathematics,2021,2
+Mathematics,2022,2
+Mathematics,2023,5
+Mathematics,2024,0
+Statistics,2000,0
+Statistics,2001,0
+Statistics,2002,0
+Statistics,2003,0
+Statistics,2004,0
+Statistics,2005,0
+Statistics,2006,0
+Statistics,2007,0
+Statistics,2008,0
+Statistics,2009,1
+Statistics,2010,0
+Statistics,2011,0
+Statistics,2012,1
+Statistics,2013,0
+Statistics,2014,0
+Statistics,2015,1
+Statistics,2016,0
+Statistics,2017,0
+Statistics,2018,0
+Statistics,2019,1
+Statistics,2020,0
+Statistics,2021,0
+Statistics,2022,2
+Statistics,2023,1
+Statistics,2024,0
+"Institute for Resources, Environment and Sustainability",2000,0
+"Institute for Resources, Environment and Sustainability",2001,1
+"Institute for Resources, Environment and Sustainability",2002,0
+"Institute for Resources, Environment and Sustainability",2003,0
+"Institute for Resources, Environment and Sustainability",2004,0
+"Institute for Resources, Environment and Sustainability",2005,0
+"Institute for Resources, Environment and Sustainability",2006,0
+"Institute for Resources, Environment and Sustainability",2007,0
+"Institute for Resources, Environment and Sustainability",2008,0
+"Institute for Resources, Environment and Sustainability",2009,1
+"Institute for Resources, Environment and Sustainability",2010,0
+"Institute for Resources, Environment and Sustainability",2011,0
+"Institute for Resources, Environment and Sustainability",2012,0
+"Institute for Resources, Environment and Sustainability",2013,0
+"Institute for Resources, Environment and Sustainability",2014,0
+"Institute for Resources, Environment and Sustainability",2015,0
+"Institute for Resources, Environment and Sustainability",2016,0
+"Institute for Resources, Environment and Sustainability",2017,1
+"Institute for Resources, Environment and Sustainability",2018,0
+"Institute for Resources, Environment and Sustainability",2019,1
+"Institute for Resources, Environment and Sustainability",2020,0
+"Institute for Resources, Environment and Sustainability",2021,0
+"Institute for Resources, Environment and Sustainability",2022,3
+"Institute for Resources, Environment and Sustainability",2023,2
+"Institute for Resources, Environment and Sustainability",2024,0
+Data Science,2000,0
+Data Science,2001,0
+Data Science,2002,0
+Data Science,2003,0
+Data Science,2004,0
+Data Science,2005,0
+Data Science,2006,0
+Data Science,2007,0
+Data Science,2008,0
+Data Science,2009,0
+Data Science,2010,0
+Data Science,2011,0
+Data Science,2012,0
+Data Science,2013,0
+Data Science,2014,0
+Data Science,2015,0
+Data Science,2016,0
+Data Science,2017,0
+Data Science,2018,0
+Data Science,2019,0
+Data Science,2020,0
+Data Science,2021,1
+Data Science,2022,2
+Data Science,2023,0
+Data Science,2024,0
+Geoscience,2000,0
+Geoscience,2001,0
+Geoscience,2002,0
+Geoscience,2003,0
+Geoscience,2004,0
+Geoscience,2005,0
+Geoscience,2006,0
+Geoscience,2007,0
+Geoscience,2008,0
+Geoscience,2009,0
+Geoscience,2010,0
+Geoscience,2011,0
+Geoscience,2012,0
+Geoscience,2013,0
+Geoscience,2014,0
+Geoscience,2015,0
+Geoscience,2016,0
+Geoscience,2017,0
+Geoscience,2018,0
+Geoscience,2019,0
+Geoscience,2020,0
+Geoscience,2021,0
+Geoscience,2022,1
+Geoscience,2023,0
+Geoscience,2024,0
+Institute for Oceans and Fisheries,2000,0
+Institute for Oceans and Fisheries,2001,0
+Institute for Oceans and Fisheries,2002,0
+Institute for Oceans and Fisheries,2003,0
+Institute for Oceans and Fisheries,2004,0
+Institute for Oceans and Fisheries,2005,0
+Institute for Oceans and Fisheries,2006,0
+Institute for Oceans and Fisheries,2007,0
+Institute for Oceans and Fisheries,2008,0
+Institute for Oceans and Fisheries,2009,0
+Institute for Oceans and Fisheries,2010,0
+Institute for Oceans and Fisheries,2011,0
+Institute for Oceans and Fisheries,2012,0
+Institute for Oceans and Fisheries,2013,0
+Institute for Oceans and Fisheries,2014,0
+Institute for Oceans and Fisheries,2015,0
+Institute for Oceans and Fisheries,2016,0
+Institute for Oceans and Fisheries,2017,0
+Institute for Oceans and Fisheries,2018,0
+Institute for Oceans and Fisheries,2019,0
+Institute for Oceans and Fisheries,2020,1
+Institute for Oceans and Fisheries,2021,0
+Institute for Oceans and Fisheries,2022,0
+Institute for Oceans and Fisheries,2023,0
+Institute for Oceans and Fisheries,2024,0

@@ -23,3 +23,5 @@ with open(tagsPath, 'w', newline='' ) as file:
     writer.writerow(field)
     for i in tags_dict:
         writer.writerow([i, tags_dict[i]])
+
+print("Tags file generated")

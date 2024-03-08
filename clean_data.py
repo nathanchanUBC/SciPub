@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 from pathNames import rawDataPath, cleanDataPath
+from ubc_faculty import removeAccents
 # Read the CSV file
 
 df = pd.read_csv(rawDataPath)
@@ -18,7 +19,7 @@ def remove_special_characters(text):
 
 # Apply the function to each cell in the dataframe
 df = df.map(remove_special_characters)
-
+#df = df.map(removeAccents)
 # Save the modified dataframe to a new CSV file
 
 df.to_csv(cleanDataPath, index=False)

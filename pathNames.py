@@ -15,6 +15,8 @@ confPath = 'output/conf.csv'
 
 journPath = 'output/journ.csv'
 
+facPerYrPath = 'output/facPerYr.csv'
+
 rawDataPath            = os.path.abspath(rawDataPath)
 cleanDataPath          = os.path.abspath(cleanDataPath)
 nodeWritePath          = os.path.abspath(nodeWritePath)
@@ -24,4 +26,4 @@ journalAuthorWritePath = os.path.abspath(journalAuthorWritePath)
 tagsPath               = os.path.abspath(tagsPath)
 confPath               = os.path.abspath(confPath)
 journPath              = os.path.abspath(journPath)
-
+facPerYrPath           = os.path.abspath(facPerYrPath)
