@@ -6,6 +6,7 @@ from pathNames import cleanDataPath, facPerYrPath
 data = pd.read_csv(cleanDataPath)
 data.sort_values(['Title'], axis=0, inplace=True)
 articles = data[['Author', 'Manual Tags', 'Publication Year']].dropna()
+
 faculty_names = [
   "Biology",
   "Chemistry",
@@ -19,11 +20,11 @@ faculty_names = [
   "Michael Smith Laboratories",
   "Microbiology",
   "Physics and Astronomy",
-  "Science Centre for Learning and Teaching (Skylight)",
+  "Science Centre for Learning and Teaching Skylight", #Use this for matching
   "Statistics"
 ]
 
-years = range(2000, 2025) #update end year
+years = range(2000, 2025)  # Update end year
 
 faculty_counts = {}
 
@@ -32,11 +33,13 @@ for index, row in articles.iterrows():
     pub_tags = tags.split("; ")
     for pub_tag in pub_tags: 
         if pub_tag in faculty_names:
-            faculty = pub_tag  # Store the matched faculty name (as-is)
+            # Use matched faculty name (original string)
+            faculty = pub_tag
             if faculty not in faculty_counts:
                 faculty_counts[faculty] = {year: 0 for year in years}  # Initialize dictionary for faculty
             faculty_counts[faculty][row['Publication Year']] += 1  # Increment count for publication year
-#print(faculty_counts)
+
+#print(faculty_counts)  # Optional: uncomment to see internal faculty names
 
 
 with open(facPerYrPath, 'w', newline='') as file:
@@ -44,9 +47,16 @@ with open(facPerYrPath, 'w', newline='') as file:
     field = ["Faculty", "Year", "Count"]
     writer.writerow(field)
 
+    # Use modified faculty name for output
+    modified_faculty_names = {
+        "Science Centre for Learning and Teaching Skylight": "Science Centre for Learning and Teaching (Skylight)"
+    }
+
     # Iterate through faculty and year-count dictionaries:
     for faculty, year_counts in faculty_counts.items():
+        # Use modified name if it exists in the dictionary
+        display_faculty = modified_faculty_names.get(faculty, faculty)
         for year, count in year_counts.items():
-            writer.writerow([faculty, year, count])
+            writer.writerow([display_faculty, year, count])
 
 print("File generated")
