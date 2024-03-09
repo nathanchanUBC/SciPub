@@ -1,6 +1,7 @@
 import pandas as pd
 import csv
 from pathNames import cleanDataPath, confPath
+from ubc_faculty import groupOther
 
 data = pd.read_csv(cleanDataPath)
 data.sort_values(['Title'], axis=0, inplace=True)
@@ -10,7 +11,7 @@ conf_dict = {}
 
 
 for index, row in articles.iterrows():
-    pubTitle = row['Publication Title']
+    pubTitle = row['Publication Title'].title()
     pubTitles = pubTitle.split("; ")
     type = row['Item Type']
 
@@ -24,18 +25,9 @@ for index, row in articles.iterrows():
                 conf_dict[i] =1
 
 
-### Uncomment lines 28-38 if want to group single counts under "Other"
-# other_count = 0
+#Uncomment if want to group single count under "Other"
+conf_dict = groupOther(conf_dict)
 
-# for title, count in conf_dict.items():
-#     if count == 1:
-#         other_count+=1
-
-# conf_dict["Other"] = other_count
-
-# for title, count in list(conf_dict.items()):  
-#     if count == 1 and title != "Other":
-#         del conf_dict[title]
 
 
 with open(confPath, 'w', newline='') as file:

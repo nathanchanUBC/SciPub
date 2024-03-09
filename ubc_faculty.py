@@ -465,3 +465,15 @@ def standardize(name):
 
 def removeAccents(names):
     return unidecode(names)
+
+def groupOther(dict):
+    other_count = 0
+    for title, count in dict.items():
+        if count == 1:
+            other_count+=1
+    dict["Other"] = other_count
+    new_dict = {}
+    for title, count in (dict.items()):  
+        if count != 1 or title == "Other":
+            new_dict[title] = count
+    return new_dict

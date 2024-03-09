@@ -1,6 +1,8 @@
 import pandas as pd
 import csv
+import string
 from pathNames import cleanDataPath, journPath
+from ubc_faculty import groupOther
 
 data = pd.read_csv(cleanDataPath)
 data.sort_values(['Title'], axis=0, inplace=True)
@@ -10,7 +12,7 @@ journ_dict = {}
 
 
 for index, row in articles.iterrows():
-    pubTitle = row['Publication Title']
+    pubTitle = row['Publication Title'].title()
     pubTitles = pubTitle.split("; ")
     type = row['Item Type']
 
@@ -23,19 +25,8 @@ for index, row in articles.iterrows():
             else:
                 journ_dict[i] =1
                 
-
-### Uncomment lines 28-38 if want to group single counts under "Other"
-# other_count = 0
-
-# for title, count in journ_dict.items():
-#     if count == 1:
-#         other_count+=1
-
-# journ_dict["Other"] = other_count
-
-# for title, count in list(journ_dict.items()): 
-#     if count == 1 and title != "Other":
-#         del journ_dict[title]
+#Uncomment if want to group single count under "Other"
+journ_dict = groupOther(journ_dict)
 
 with open(journPath, 'w', newline='') as file:
     writer = csv.writer(file)
