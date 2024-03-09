@@ -38,7 +38,7 @@ for index, row in articles.iterrows():
                 faculty_counts[faculty] = {year: 0 for year in years} 
             faculty_counts[faculty][row['Publication Year']] += 1  
 
-print(faculty_counts)  # Optional: uncomment to see internal faculty names
+#print(faculty_counts)  # Optional: uncomment to see internal faculty names
 
 
 with open(facPerYrPath, 'w', newline='') as file:
