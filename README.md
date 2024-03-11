@@ -28,7 +28,7 @@ The scripts that we have are:
 3. Rename the replaced file to data.csv
 
 ## Executing Program Using VSCode
-1. First, run clean_data.py in VSCode by pressing the arrow symbol, "Run Python File"
+1. First, run clean_data.py in VSCode by opening the file then pressing the arrow symbol, "Run Python File"
 2. In the SciPub/input, check that clean_data.csv has been updated
 3. Depending on the data you require, run the respective scripts listed above. All generated files can be found in SciPub/output
 4. Alternatively, you can run "SciPub/runAll.py" to clean then generate all files
