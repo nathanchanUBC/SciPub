@@ -28,6 +28,10 @@ The scripts that we have are:
 3. Depending on the data you require, run the respective scripts listed above. All generated files can be found in SciPub/output
 4. Alternatively, you can run "SciPub/runAll.py" to clean then generate all files
 
+## Execute Program Using Terminal
+1. Change the directory in terminal using ```cd``` to the cloned SciPub folder
+2. Use ```pwd``` to check your current directory
+3. To run the required files, type in terminal ```python fileName.py```
 ## Closing Remarks
 - If there are conflicitng name formats (excluding accents) in the cleaned_data.csv, standardize them in the dictionary, standardizedNames, in SciPub/ubc_faculty.py
 - Make sure that the key doesn't include any accents otherwise they won't appear in the generated csvs!
