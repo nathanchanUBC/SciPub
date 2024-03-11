@@ -5,11 +5,16 @@ into CSV's that can be used for data analysis and creating visualizations in Flo
 # Description
 The scripts that we have are:
 1. clean_data.py: Cleans the Zotero import and puts it in clean_data.csv
-2. authors.py: Creates a list of authors and number of publications
-3. tags.py: Creates a list of tags and number of occurences
-4. network_graph.py: Creates a list of nodes and edges to create a [network graph](https://public.flourish.studio/visualisation/16796700/)
+2. authors.py: Creates a file of authors and number of publications
+3. tags.py: Creates a file of tags and number of occurences
+4. network_graph.py: Creates a file of nodes and edges to create a [network graph](https://public.flourish.studio/visualisation/16796700/)
 5. ubc_faculty.py: Contains a list of UBC faculty, their departments, and some helper functions
-6. pathNames.py: Contains the absolute paths of all files used
+6. conf.py: Creates a file of conference papers and number of occurences
+7. journ.py: Creates a file of contributions by each science faculty per year of journal articles and number of occurences
+8. facPerYr.py: Creates a file of contributions by each science faculty per year
+9. pathNames.py: Contains the absolute paths of all files used
+10. runAll.py: Running this file generates all files listed above
+   
 
 # Getting Started
 ## Computer Setup
