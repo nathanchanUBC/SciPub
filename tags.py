@@ -10,11 +10,11 @@ tags_dict = {}
 for index, row in articles.iterrows():
     tags = row['Manual Tags']
     pub_tags = tags.split("; ")
-    for i in pub_tags:
-        if i in tags_dict:
-            tags_dict[i] +=1
+    for tag in pub_tags:
+        if tag in tags_dict:
+            tags_dict[tag] +=1
         else:
-            tags_dict[i] = 1
+            tags_dict[tag] = 1
 
 
 with open(tagsPath, 'w', newline='' ) as file:

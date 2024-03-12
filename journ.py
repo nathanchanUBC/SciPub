@@ -19,11 +19,11 @@ for index, row in articles.iterrows():
     isConf = True if type == 'journalArticle' else False
     
     if isConf:
-        for i in pubTitles:
-            if i in journ_dict:
-                journ_dict[i] +=1
+        for title in pubTitles:
+            if title in journ_dict:
+                journ_dict[title] +=1
             else:
-                journ_dict[i] =1
+                journ_dict[title] =1
                 
 #Uncomment if want to group single count under "Other"
 journ_dict = groupOther(journ_dict)
@@ -32,7 +32,7 @@ with open(journPath, 'w', newline='') as file:
     writer = csv.writer(file)
     field = ["Title", "Count"]
     writer.writerow(field)
-    for i in journ_dict:
-        writer.writerow([i,journ_dict[i]])
+    for title, count in journ_dict.items():
+        writer.writerow([title, count])
 
 print("Journal count generated")

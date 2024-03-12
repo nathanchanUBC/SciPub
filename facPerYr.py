@@ -31,9 +31,9 @@ faculty_counts = {}
 for index, row in articles.iterrows():
     tags = row['Manual Tags']
     pub_tags = tags.split("; ")
-    for pub_tag in pub_tags: 
-        if pub_tag in faculty_names:
-            faculty = pub_tag
+    for tag in pub_tags: 
+        if tag in faculty_names:
+            faculty = tag
             if faculty not in faculty_counts:
                 faculty_counts[faculty] = {year: 0 for year in years} 
             faculty_counts[faculty][row['Publication Year']] += 1  

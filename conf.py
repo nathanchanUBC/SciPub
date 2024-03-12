@@ -18,11 +18,11 @@ for index, row in articles.iterrows():
     isConf = True if type == 'conferencePaper' else False
     
     if isConf:
-        for i in pubTitles:
-            if i in conf_dict:
-                conf_dict[i] +=1
+        for title in pubTitles:
+            if title in conf_dict:
+                conf_dict[title] +=1
             else:
-                conf_dict[i] =1
+                conf_dict[title] =1
 
 
 #Uncomment if want to group single count under "Other"
@@ -34,8 +34,8 @@ with open(confPath, 'w', newline='') as file:
     writer = csv.writer(file)
     field = ["Title", "Count"]
     writer.writerow(field)
-    for i in conf_dict:
-        writer.writerow([i,conf_dict[i]])
+    for title, count in conf_dict.items():
+        writer.writerow([title,count])
 
 
 print("Conference file generated!")

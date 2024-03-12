@@ -21,8 +21,8 @@ for index, row in articles.iterrows():
     atUBC = False if 'Pre-UBC Tenure' in splitTags else True
 
     if atUBC:
-        for i in pub_authors:
-            name = standard_name(i)
+        for author in pub_authors:
+            name = standard_name(author)
             if isUBC(name):
                 if name in authors_dict:
                     authors_dict[name] += 1
@@ -32,10 +32,10 @@ for index, row in articles.iterrows():
 
 with open(UBCAuthorWritePath, 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["name", "size"]    
+    field = ["Name", "Count"]    
     writer.writerow(field)
-    for i in authors_dict:
-        writer.writerow([i, authors_dict[i]])
+    for name, count in authors_dict.items():
+        writer.writerow([name, count])
 
 # AUTHORS PUBLISHED JOURNAL AT UBC
 authors_dict = {}
@@ -52,8 +52,8 @@ for index, row in articles.iterrows():
     isJournal = True if type == 'journalArticle' else False
 
     if atUBC and isJournal:
-        for i in pub_authors:
-            name = standard_name(i)
+        for author in pub_authors:
+            name = standard_name(author)
             if isUBC(name):
                 if name in authors_dict:
                     authors_dict[name] += 1
@@ -62,9 +62,9 @@ for index, row in articles.iterrows():
 
 with open(journalAuthorWritePath, 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["name", "size"]    
+    field = ["Name", "Count"]    
     writer.writerow(field)
-    for i in authors_dict:
-        writer.writerow([i, authors_dict[i]])
+    for name, count in authors_dict.items():
+        writer.writerow([name, count])
 
 print("Author file generated!")
