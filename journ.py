@@ -1,6 +1,5 @@
 import pandas as pd
 import csv
-import string
 from pathNames import cleanDataPath, journPath
 from ubc_faculty import groupOther
 
