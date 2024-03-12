@@ -24,22 +24,26 @@ The scripts that we have are:
 - We recommend using the Rainbow CSV VSCode Extension for CSV readability (*optional*)
 ## Program Setup
 1. [Clone this project](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+ ```
+git clone https://github.com/nathanchanUBC/SciPub.git
+```  
 2. Replace the SciPub/input/data.csv with your personalized exported Zotero library (in CSV). This is the raw data
 3. Rename the replaced file to data.csv
 
 ## Executing Program Using VSCode
-1. First, run clean_data.py in VSCode by opening the file then pressing the arrow symbol, "Run Python File"
-2. In the SciPub/input, check that clean_data.csv has been updated
+1. Open clean_data.py in VSCode then execute the script by pressing the arrow icon, "Run Python File"
+2. In SciPub/input, check that clean_data.csv has been updated
 3. Depending on the data you require, run the respective scripts listed above. All generated files can be found in SciPub/output
 4. Alternatively, you can run "SciPub/runAll.py" to clean then generate all files
 
 ## Execute Program Using Terminal
-1. Change the directory in terminal using ```cd``` to the cloned SciPub folder
-2. Use ```pwd``` to check your current directory
-3. To run the required files, type in terminal ```python fileName.py```
+1. Open terminal. Using ```cd```, change the directory to the cloned SciPub folder
+2. Use ```pwd``` to verify your current directory
+3. Once in the SciPub folder, type in terminal ```python fileName.py``` to execute the desired script
 ## Closing Remarks
 - If there are conflicitng name formats (excluding accents) in the cleaned_data.csv, standardize them in the dictionary, standardizedNames, in SciPub/ubc_faculty.py
 - Make sure that the key doesn't include any accents otherwise they won't appear in the generated csvs!
+- If there are new authors, you must add them to their respective faculty list in "SciPub/ubc_faculty.py" 
 ### TODO:
 - Skylight GitHub account?
 
