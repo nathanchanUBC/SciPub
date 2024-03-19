@@ -51,7 +51,7 @@ The following files are used in Tableau:
 - pubcUBC_isJournal_authors.csv
   
 ## Flourish Files
-The following files are uesd in Flourish
+The following files are uesd in Flourish:
 - author_edges.csv
 - author_nodes.csv
 
