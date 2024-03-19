@@ -40,10 +40,24 @@ git clone https://github.com/nathanchanUBC/SciPub.git
 1. Open terminal. Using ```cd```, change the directory to the cloned SciPub folder
 2. Use ```pwd``` to verify your current directory
 3. Once in the SciPub folder, type in terminal ```python fileName.py``` to execute the desired script
+
+## Tableau Files
+The following files are used in Tableau:
+- conf.csv
+- facPerYr.csv
+- journ.csv
+- pubTags.csv
+- pubUBC_authors.csv
+- pubcUBC_isJournal_authors.csv
+  
+## Flourish Files
+The following files are uesd in Flourish
+- author_edges.csv
+- author_nodes.csv
+
 ## Closing Remarks
 - If there are conflicitng name formats (excluding accents) in the cleaned_data.csv, standardize them in the dictionary, standardizedNames, in SciPub/ubc_faculty.py
 - Make sure that the key doesn't include any accents otherwise they won't appear in the generated csvs!
-- If there are new authors, you must add them to their respective faculty list in "SciPub/ubc_faculty.py" 
-### TODO:
-- Skylight GitHub account?
+- If there are new authors, you must add their (standardized) name to their respective faculty list in "SciPub/ubc_faculty.py" 
+
 
