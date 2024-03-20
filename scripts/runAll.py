@@ -1,10 +1,10 @@
 import subprocess
 
-subprocess.run(["python", "clean_data.py"])
-subprocess.run(["python", "conf.py"])
-subprocess.run(["python", "authors.py"])
-subprocess.run(["python", "journ.py"])
-subprocess.run(["python", "tags.py"])
-subprocess.run(["python", "facPerYr.py"])
-subprocess.run(["python", "network_graph.py"])
-subprocess.run(["python", "facPerYr.py"])
+subprocess.run(["python", "scripts/clean_data.py"])
+subprocess.run(["python", "scripts/conf.py"])
+subprocess.run(["python", "scripts/authors.py"])
+subprocess.run(["python", "scripts/journ.py"])
+subprocess.run(["python", "scripts/tags.py"])
+subprocess.run(["python", "scripts/facPerYr.py"])
+subprocess.run(["python", "scripts/network_graph.py"])
+subprocess.run(["python", "scripts/facPerYr.py"])
