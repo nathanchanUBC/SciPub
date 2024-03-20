@@ -39,7 +39,7 @@ git clone https://github.com/nathanchanUBC/SciPub.git
 ## Execute Program Using Terminal
 1. Open terminal. Using ```cd```, change the directory to the cloned SciPub folder
 2. Use ```pwd``` to verify your current directory
-3. Once in the SciPub folder, type in terminal ```python fileName.py``` to execute the desired script
+3. Once in the SciPub folder, type in terminal ```python scripts/fileName.py``` to execute the desired script
 
 ## Tableau Files
 The following files are used in Tableau:
