@@ -25,7 +25,7 @@ The scripts that we have are:
 ## Program Setup
 1. [Clone this project](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
  ```
-git clone https://github.com/nathanchanUBC/SciPub.git
+git clone https://github.com/scienceltrs/SciPub.git
 ```  
 2. Replace the SciPub/input/data.csv with your personalized exported Zotero library (in CSV). This is the raw data
 3. Rename the replaced file to data.csv
