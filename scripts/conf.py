@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
-from pathNames import cleanDataPath, confPath
-from ubc_faculty import groupOther
+from pathNames import cleanDataPath, confPath, confOtherPath
+from ubc_faculty import groupOther, otherDict
 
 data = pd.read_csv(cleanDataPath)
 data.sort_values(['Title'], axis=0, inplace=True)
@@ -24,7 +24,7 @@ for index, row in articles.iterrows():
             else:
                 conf_dict[title] =1
 
-
+otherConfdict = otherDict(conf_dict)
 #Uncomment if want to group single count under "Other"
 conf_dict = groupOther(conf_dict)
 
@@ -32,10 +32,17 @@ conf_dict = groupOther(conf_dict)
 
 with open(confPath, 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["Title", "Count"]
+    field = ["Conference Title", "Count of Publication Title"]
     writer.writerow(field)
     for title, count in conf_dict.items():
         writer.writerow([title,count])
 
+
+with open(confOtherPath, 'w', newline = '') as file:
+    writer = csv.writer(file)
+    field = ["Conference Title", "Count of Publication Title"]
+    writer.writerow(field)
+    for title, count in otherConfdict.items():
+        writer.writerow([title,count])
 
 print("Conference file generated!")

@@ -477,3 +477,10 @@ def groupOther(dict):
         if count != 1 or title == "Other":
             new_dict[title] = count
     return new_dict
+
+def otherDict(dict):
+    new_dict = {}
+    for title, count in dict.items():
+        if count == 1:
+            new_dict[title] = count
+    return new_dict
