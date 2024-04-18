@@ -237,7 +237,6 @@ CPSC = [
 ]
 BIOL = [
     "Berger, J",
-    "Graves, M",
     "Kalas, P",
     "Aviles, L",
     "Pennell, M",
@@ -246,9 +245,6 @@ BIOL = [
     "Schulte, P",
     "Srivastava, D",
     "Steinwand, B",
-    "Oliver, D",
-    "Hallam, S",
-    "Harder, K",
     "Chowrira, G",
     "Klenz, J",
     "Zeiler, K",
@@ -262,7 +258,6 @@ BIOL = [
     "Altshuler, D",
     "Moerman, D",
     "Srivastava, D",
-    "Gaynor, E",
     "Hammill, E",
     "Bole, G",
     "Bradfield, G",
@@ -276,7 +271,6 @@ BIOL = [
     "Berbee, M",
     "Hawkes, M",
     "O’Connor, M",
-    "Johnson, P",
     "Kalas, P",
     "Matthews, P",
     "Schulte, P",
@@ -288,11 +282,8 @@ BIOL = [
     "Ellis, S",
     "Graham, S",
     "Beatty, T",
-    "Kion, T",
     "Auld, V",
-    "Bingle, W",
     "Goodey, W",
-    "Mohn, W",
     "Tetzlaff, W",
     "Zhang, Y",
     "Clarkston, B",
@@ -305,6 +296,17 @@ BIOL = [
     "Schimpf, N",
     "Smith, K",
     "Hallam, S"
+]
+MICB = [
+    "Bingle, W",
+    "Graves, M",
+    "Kion, T",
+    "Oliver, D",
+    "Gaynor, E",
+    "Hallam, S",
+    "Harder, K",
+    "Johnson, P",
+    "Mohn, W",
 ]
 PHAS = [
     "Bates, S",
@@ -407,6 +409,7 @@ def isUBC(name):
             or name in MATH 
             or name in CPSC 
             or name in BIOL
+            or name in MICB
             or name in PHAS 
             or name in CHEM) 
 
@@ -427,6 +430,8 @@ def get_faculty(name):
         return 'Computer Science'
     if name in BIOL:
         return 'Biology'
+    if name in MICB:
+        return 'Microbiology and Immunology'
     if name in PHAS:
         return 'Physics and Astronomy'
     if name in CHEM:

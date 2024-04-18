@@ -18,7 +18,7 @@ faculty_names = [
   "Institute for Resources, Environment and Sustainability",
   "Mathematics",
   "Michael Smith Laboratories",
-  "Microbiology",
+  "Microbiology and Immunology",
   "Physics and Astronomy",
   "Science Centre for Learning and Teaching Skylight",
   "Statistics"
