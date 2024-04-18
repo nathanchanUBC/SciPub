@@ -47,6 +47,7 @@ The following files are used in Tableau:
 - facPerYr.csv
 - journ.csv
 - pubTags.csv
+- author_nodes.csv
   
 ## Flourish Files
 The following files are uesd in Flourish:
