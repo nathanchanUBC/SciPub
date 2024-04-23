@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
 from pathNames import cleanDataPath, journPath, jounrOtherPath
-from ubc_faculty import groupOther, otherDict
+from ubc_dept import groupOther, otherDict
 
 data = pd.read_csv(cleanDataPath)
 data.sort_values(['Title'], axis=0, inplace=True)
@@ -30,14 +30,14 @@ journ_dict = groupOther(journ_dict)
 
 with open(journPath, 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["Jounal Title", "Count of Publication Title"]
+    field = ["Journal Title", "Count of Publication Title"]
     writer.writerow(field)
     for title, count in journ_dict.items():
         writer.writerow([title, count])
 
 with open(jounrOtherPath, 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["Jounal Title", "Count of Publication Title"]
+    field = ["Journal Title", "Count of Publication Title"]
     writer.writerow(field)
     for title, count in jounrOtherDict.items():
         writer.writerow([title, count])

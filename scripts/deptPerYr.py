@@ -1,13 +1,13 @@
 import pandas as pd
 import csv
 
-from pathNames import cleanDataPath, facPerYrPath
+from pathNames import cleanDataPath, deptPerYrPath
 
 data = pd.read_csv(cleanDataPath)
 data.sort_values(['Title'], axis=0, inplace=True)
 articles = data[['Author', 'Manual Tags', 'Publication Year']].dropna()
 
-faculty_names = [
+dept_names = [
   "Biology",
   "Chemistry",
   "Computer Science",
@@ -26,33 +26,33 @@ faculty_names = [
 
 years = range(2000, 2025)  # Update end year
 
-faculty_counts = {}
+dept_counts = {}
 
 for index, row in articles.iterrows():
     tags = row['Manual Tags']
     pub_tags = tags.split("; ")
     for tag in pub_tags: 
-        if tag in faculty_names:
-            faculty = tag
-            if faculty not in faculty_counts:
-                faculty_counts[faculty] = {year: 0 for year in years} 
-            faculty_counts[faculty][row['Publication Year']] += 1  
+        if tag in dept_names:
+            dept = tag
+            if dept not in dept_counts:
+                dept_counts[dept] = {year: 0 for year in years} 
+            dept_counts[dept][row['Publication Year']] += 1  
 
 #print(faculty_counts)  # Optional: uncomment to see internal faculty names
 
 
-with open(facPerYrPath, 'w', newline='') as file:
+with open(deptPerYrPath, 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["Faculty", "Year", "Count"]
+    field = ["Department", "Year", "Count"]
     writer.writerow(field)
 
     modified_faculty_names = {
         "Science Centre for Learning and Teaching Skylight": "Science Centre for Learning and Teaching (Skylight)"
     }
 
-    for faculty, year_counts in faculty_counts.items():
-        display_faculty = modified_faculty_names.get(faculty, faculty)
+    for dept, year_counts in dept_counts.items():
+        display_faculty = modified_faculty_names.get(dept, dept)
         for year, count in year_counts.items():
             writer.writerow([display_faculty, year, count])
 
-print("Faculty Per Year file generated!")
+print("Department Per Year file generated!")

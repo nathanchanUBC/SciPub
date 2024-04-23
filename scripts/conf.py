@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
 from pathNames import cleanDataPath, confPath, confOtherPath
-from ubc_faculty import groupOther, otherDict
+from ubc_dept import groupOther, otherDict
 
 data = pd.read_csv(cleanDataPath)
 data.sort_values(['Title'], axis=0, inplace=True)

@@ -19,7 +19,7 @@ for index, row in articles.iterrows():
 
 with open(tagsPath, 'w', newline='' ) as file:
     writer = csv.writer(file)
-    field = ["Tag", "Size"]
+    field = ["Tag", "Number of Publications"]
     writer.writerow(field)
     for tags, count in tags_dict.items():
         writer.writerow([tags,count])

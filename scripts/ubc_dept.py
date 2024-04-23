@@ -413,7 +413,7 @@ def isUBC(name):
             or name in PHAS 
             or name in CHEM) 
 
-def get_faculty(name):
+def get_dept(name):
     if name in SKYLIGHT:
         return 'Skylight'
     if name in IRES:

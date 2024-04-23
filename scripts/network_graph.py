@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
 
-from ubc_faculty import isUBC, get_faculty, standard_name
+from ubc_dept import isUBC, get_dept, standard_name
 from pathNames import cleanDataPath, nodeWritePath, edgeWritePath
 
 ## Network graph here: https://public.flourish.studio/visualisation/16796700/
@@ -24,10 +24,10 @@ for item in authors:
 
 with open(nodeWritePath, 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["name", "size", "faculty"]    
+    field = ["Author", "Count", "Department"]    
     writer.writerow(field)
     for i in authors_dict:
-        writer.writerow([i, authors_dict[i], get_faculty(i)])
+        writer.writerow([i, authors_dict[i], get_dept(i)])
 print("Nodes list created")
 
 ## List of Edges (weights done by graphing software)
