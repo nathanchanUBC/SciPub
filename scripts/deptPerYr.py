@@ -43,7 +43,7 @@ for index, row in articles.iterrows():
 
 with open(deptPerYrPath, 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["Department", "Year", "Count"]
+    field = ["Department", "Publication Year", "Number of Publications"]
     writer.writerow(field)
 
     modified_faculty_names = {

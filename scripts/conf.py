@@ -32,7 +32,7 @@ conf_dict = groupOther(conf_dict)
 
 with open(confPath, 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["Conference Title", "Count of Publication Title"]
+    field = ["Conference Title", "Number of Publications"]
     writer.writerow(field)
     for title, count in conf_dict.items():
         writer.writerow([title,count])
@@ -40,7 +40,7 @@ with open(confPath, 'w', newline='') as file:
 
 with open(confOtherPath, 'w', newline = '') as file:
     writer = csv.writer(file)
-    field = ["Conference Title", "Count of Publication Title"]
+    field = ["Conference Title", "Number of Publications"]
     writer.writerow(field)
     for title, count in otherConfdict.items():
         writer.writerow([title,count])

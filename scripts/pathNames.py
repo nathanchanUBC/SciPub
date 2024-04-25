@@ -17,6 +17,8 @@ journPath = 'output/journ.csv'
 jounrOtherPath = 'output/journOther.csv'
 
 deptPerYrPath = 'output/deptPerYr.csv'
+journAuthPath = 'output/journAuth.csv'
+confAuthPath = 'output/confAuth.csv'
 
 rawDataPath            = os.path.abspath(rawDataPath)
 cleanDataPath          = os.path.abspath(cleanDataPath)
@@ -28,4 +30,6 @@ confPath               = os.path.abspath(confPath)
 confOtherPath          = os.path.abspath(confOtherPath)
 journPath              = os.path.abspath(journPath)
 jounrOtherPath         = os.path.abspath(jounrOtherPath)
-deptPerYrPath           = os.path.abspath(deptPerYrPath)
+deptPerYrPath          = os.path.abspath(deptPerYrPath)
+journAuthPath          = os.path.abspath(journAuthPath)
+confAuthPath           = os.path.abspath(confAuthPath)

@@ -22,6 +22,7 @@ df = df.map(remove_special_characters)
 # Save the modified dataframe to a new CSV file
 
 df.to_csv(cleanDataPath, index=False)
+
 print("Data cleaned!")
 
 # there may also be some nan in columns Authors or Manual Tags

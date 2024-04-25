@@ -15,9 +15,9 @@ for index, row in articles.iterrows():
     pubTitles = pubTitle.split("; ")
     type = row['Item Type']
 
-    isConf = True if type == 'journalArticle' else False
+    isJourn = True if type == 'journalArticle' else False
     
-    if isConf:
+    if isJourn:
         for title in pubTitles:
             if title in journ_dict:
                 journ_dict[title] +=1

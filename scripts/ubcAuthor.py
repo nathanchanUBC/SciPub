@@ -21,7 +21,7 @@ for item in authors:
 
 with open(UBCAuthorWritePath, 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["Author", "Count", "Department"]    
+    field = ["Author", "Number of Publications", "Department"]    
     writer.writerow(field)
     for author in authors_dict:
         if isUBC(author):
