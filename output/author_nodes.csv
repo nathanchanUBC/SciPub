@@ -121,18 +121,13 @@ Author,Count,Department
 "Baldwin, D",1,Other/Non-UBC
 "Marion, B",1,Other/Non-UBC
 "Sitaraman, M",1,Other/Non-UBC
-"Baniassad, E",11,Computer Science
+"Baniassad, E",10,Computer Science
 "Beschastnikh, I",1,Other/Non-UBC
 "Holmes, R",5,Computer Science
 "Kiczales, G",2,Computer Science
 "Campbell, A",7,Other/Non-UBC
 "Allidina, T",1,Other/Non-UBC
 "Ord, A",1,Other/Non-UBC
-"Clements, P",1,Other/Non-UBC
-"Araujo, J",1,Other/Non-UBC
-"Moreira, A",1,Other/Non-UBC
-"Rashid, A",1,Other/Non-UBC
-"Tekinerdogan, B",1,Other/Non-UBC
 "Summers, A",1,Other/Non-UBC
 "Zamprogno, L",2,Other/Non-UBC
 "Hall, B",3,Other/Non-UBC
@@ -151,9 +146,9 @@ Author,Count,Department
 "West, R",1,Other/Non-UBC
 "Willing, C",1,Other/Non-UBC
 "Zingale, M",1,Other/Non-UBC
-"Barker, M",6,Biology
-"Jandciu, E",6,Skylight
-"Young, R",4,Biology
+"Barker, M",5,Biology
+"Jandciu, E",5,Skylight
+"Young, R",3,Biology
 "Barrette-Ng, I",2,Other/Non-UBC
 "Code, W",25,Skylight
 "Power, M",1,Other/Non-UBC
@@ -210,7 +205,7 @@ Author,Count,Department
 "Fahrenbach, J",1,Other/Non-UBC
 "Gonzalez, M",1,Other/Non-UBC
 "Smith, J",2,Other/Non-UBC
-"Welsh, A",15,Skylight
+"Welsh, A",16,Skylight
 "Liu, S",2,Other/Non-UBC
 "Hirsch, P",3,Other/Non-UBC
 "Undey, C",1,Other/Non-UBC
@@ -926,7 +921,7 @@ Van D,1,Other/Non-UBC
 "Mastronardi, M",1,Other/Non-UBC
 "Wang, J",1,Other/Non-UBC
 "Weaver, G",1,Other/Non-UBC
-"Webb, A",1,Other/Non-UBC
+"Webb, A",2,Other/Non-UBC
 "Schimpf, N",1,Biology
 "Rodeldla, T",1,Other/Non-UBC
 "Schulte, P",1,Biology

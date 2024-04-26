@@ -21,6 +21,7 @@ Collected Essays On Learning And Teaching,"Lekhi, P",1
 Collected Essays On Learning And Teaching,"Allen, M",1
 Collected Essays On Learning And Teaching,"Gilley, B",1
 Collected Essays On Learning And Teaching,"Rieger, G",1
+The Science Teacher,"Lukes, L",1
 Journal Of College Science Teaching,"Lane, E",2
 Journal Of College Science Teaching,"Harris, S",2
 Journal Of College Science Teaching,"Gilley, B",2
@@ -104,6 +105,16 @@ The Canadian Journal For The Scholarship Of Teaching And Learning,"Louis-Martine
 The Canadian Journal For The Scholarship Of Teaching And Learning,"Nakahara, H",1
 The Canadian Journal For The Scholarship Of Teaching And Learning,"Waltham, C",1
 The Canadian Journal For The Scholarship Of Teaching And Learning,"Nomme, K",1
+The Canadian Journal For The Scholarship Of Teaching And Learning,"Acai, A",1
+The Canadian Journal For The Scholarship Of Teaching And Learning,"Akesson, B",1
+The Canadian Journal For The Scholarship Of Teaching And Learning,"Allen, M",1
+The Canadian Journal For The Scholarship Of Teaching And Learning,"Chen, V",1
+The Canadian Journal For The Scholarship Of Teaching And Learning,"Mathany, C",1
+The Canadian Journal For The Scholarship Of Teaching And Learning,"McCollum, B",1
+The Canadian Journal For The Scholarship Of Teaching And Learning,"Spencer, J",1
+The Canadian Journal For The Scholarship Of Teaching And Learning,"Verwoord, R",1
+The Canadian Journal For The Scholarship Of Teaching And Learning,"Chowrira, S",1
+The Canadian Journal For The Scholarship Of Teaching And Learning,et a,1
 Physics Teacher,Van D,1
 Physics Teacher,"Rieger, G",1
 Physics Teacher,"Holmes, N",1
@@ -116,6 +127,15 @@ Primus,"Radzimski, V",1
 Primus,"Leung, F",1
 Primus,"Sargent, P",1
 Primus,"Prat, A",1
+Physics In Canada,"Rieger, G",1
+Physics In Canada,"Sitwell, M",1
+Physics In Canada,"Carolan, J",1
+Physics In Canada,"Roll, I",1
+Physics In Canada,"Day, J",1
+Physics In Canada,"Adams, W",1
+Physics In Canada,"Wieman, C",1
+Physics In Canada,"Schwartz, D",1
+Physics In Canada,"Bonn, D",1
 Journal Of Open Source Education,"Johnston, L",1
 Journal Of Open Source Education,"Bonsma-Fisher, M",1
 Journal Of Open Source Education,"Ostblom, J",1
@@ -328,8 +348,6 @@ Npj Science Of Learning,"Chowrira, S",1
 Npj Science Of Learning,"Smith, K",1
 Npj Science Of Learning,"Dubois, P",1
 Npj Science Of Learning,"Roll, I",1
-"Carl Weiman Science Education Initiative, University Of British Columbia, Accessed","Gilley, B",1
-"Carl Weiman Science Education Initiative, University Of British Columbia, Accessed","Clarkston, B",1
 New Directions For Teaching And Learning,"Lukes, L",1
 New Directions For Teaching And Learning,"Mazabel, S",1
 New Directions For Teaching And Learning,"Sherman, S",1
@@ -414,22 +432,15 @@ Scientometrics,"Bartlett, B",1
 Scientometrics,"Kantar, M",1
 Scientometrics,"Tseng, M",1
 Scientometrics,"Mehrabi, Z",1
-Ieee Software,"Baniassad, E",1
-Ieee Software,"Clements, P",1
-Ieee Software,"Araujo, J",1
-Ieee Software,"Moreira, A",1
-Ieee Software,"Rashid, A",1
-Ieee Software,"Tekinerdogan, B",1
-Computers  Education,"Yazon, J",1
-Computers  Education,"Mayer-Smith, J",1
-Computers  Education,"Redfield, R",1
+Computers And Education,"Yazon, J",1
+Computers And Education,"Mayer-Smith, J",1
+Computers And Education,"Redfield, R",1
 Bioscience Education,"Birol, G",1
 Bioscience Education,"Liu, S",1
 Bioscience Education,"Smith, H",1
 Bioscience Education,"Hirsch, P",1
 Tesol Quarterly,"Zappa-Hollman, S",1
 Tesol Quarterly,"Fox, J",1
-Proquest Llc,"Yoon, D",1
 Instructional Science,"Roll, I",3
 Instructional Science,"Holmes, N",2
 Instructional Science,"Day, J",2
@@ -460,8 +471,6 @@ Computers And Education Artificial Intelligence,"Knight, S",1
 Computers And Education Artificial Intelligence,"Martinez-Maldonado, R",1
 Computers And Education Artificial Intelligence,"Sadiq, S",1
 Computers And Education Artificial Intelligence,"Gasevic, D",1
-Los Angeles,"Putnam, V",1
-Los Angeles,"Conati, C",1
 European Science Education Research Association Esera,"Birol, G",1
 European Science Education Research Association Esera,"Briseno-Garzon, A",1
 European Science Education Research Association Esera,"Han, A",1
@@ -531,8 +540,6 @@ Ieee Transactions On Haptics,"Chun, M",1
 Ieee Transactions On Haptics,"Gallacher, C",1
 Ieee Transactions On Haptics,"Schneider, O",1
 Ieee Transactions On Haptics,"MacLean, K",1
-Design Recommendations For Intelligent Tutoring Systems,"Mullins, R",1
-Design Recommendations For Intelligent Tutoring Systems,"Conati, C",1
 Assessment  Evaluation In Higher Education,"Jones, F",1
 "International Journal Of Science, Mathematics And Technology Learning","Birol, G",1
 "International Journal Of Science, Mathematics And Technology Learning","Deane, T",1
@@ -564,13 +571,16 @@ Artificial Intelligence,"Conati, C",1
 Artificial Intelligence,"Barral, O",1
 Artificial Intelligence,"Putnam, V",1
 Artificial Intelligence,"Rieger, L",1
-Science Education,"Ramachandran, A",1
-Science Education,"Moua, I",1
-Science Education,"Oberg, G",1
-Chi '03 Extended Abstracts On Human Factors In Computing Systems,"Anderson, R",2
-Chi '03 Extended Abstracts On Human Factors In Computing Systems,"VanDeGrift, T",1
-Chi '03 Extended Abstracts On Human Factors In Computing Systems,"Wolfman, S",1
-Chi '03 Extended Abstracts On Human Factors In Computing Systems,"Yasuhara, K",1
+Science And Education,"Ramachandran, A",1
+Science And Education,"Moua, I",1
+Science And Education,"Oberg, G",2
+Science And Education,"Campbell, A",1
+Science And Education,"Fox, J",1
+Science And Education,"Graves, M",1
+Science And Education,"Ivanochko, T",1
+Science And Education,"Matsuchi, L",1
+Science And Education,"Mouat, I",1
+Science And Education,"Welsh, A",1
 Earth System Science Data,"Borduas-Dedekind, N",1
 Earth System Science Data,"Short, K",1
 Earth System Science Data,"Carlson, S",1
@@ -603,10 +613,6 @@ Geosphere,"Stokes, A",1
 Geosphere,"Feig, A",1
 Geosphere,"Atchison, C",1
 Geosphere,"Gilley, B",1
-Peer Review,"Oehlman, N",1
-Peer Review,"Haegar, H",1
-Peer Review,"Clarkston, B",1
-Peer Review,"Banks, J",1
 Bioinformatics,"Jin, B",1
 Bioinformatics,"Xu, F",1
 Bioinformatics,"Ng, R",1
@@ -731,14 +737,6 @@ Ai Magazine,"Conati, C",1
 Ai Magazine,"Kardan, S",1
 The American Biology Teacher,"Goedhart, C",1
 The American Biology Teacher,"McLaughlin, J",1
-Canadian Journal For The Scholarship Of Teaching  Learning,"Acai, A",1
-Canadian Journal For The Scholarship Of Teaching  Learning,"Akesson, B",1
-Canadian Journal For The Scholarship Of Teaching  Learning,"Allen, M",1
-Canadian Journal For The Scholarship Of Teaching  Learning,"Chen, V",1
-Canadian Journal For The Scholarship Of Teaching  Learning,"Mathany, C",1
-Canadian Journal For The Scholarship Of Teaching  Learning,"McCollum, B",1
-Canadian Journal For The Scholarship Of Teaching  Learning,"Spencer, J",1
-Canadian Journal For The Scholarship Of Teaching  Learning,"Verwoord, R",1
 Environmental Education Research,"Zelenika, I",1
 Environmental Education Research,"Moreau, T",1
 Environmental Education Research,"Lane, O",1
@@ -748,14 +746,6 @@ Transformative Dialogues Teaching  Learning Journal,"Dee, J",1
 Transformative Dialogues Teaching  Learning Journal,"Lam, V",1
 Transformative Dialogues Teaching  Learning Journal,"Welsh, A",1
 Transformative Dialogues Teaching  Learning Journal,"Fox, J",1
-Science  Education,"Oberg, G",1
-Science  Education,"Campbell, A",1
-Science  Education,"Fox, J",1
-Science  Education,"Graves, M",1
-Science  Education,"Ivanochko, T",1
-Science  Education,"Matsuchi, L",1
-Science  Education,"Mouat, I",1
-Science  Education,"Welsh, A",1
 Research Paper Presentation At Society For Teaching And Learning In Higher Education Stlhe,"Han, A",1
 Research Paper Presentation At Society For Teaching And Learning In Higher Education Stlhe,"Code, W",1
 "Report For The Council Of Life Sciences, Ubc","Nakonechny, J",1
@@ -767,8 +757,6 @@ Frontiers In Psychology,"Crenshaw, T",1
 Frontiers In Psychology,"Chambers, E",1
 Frontiers In Psychology,"Heeren, C",1
 Frontiers In Psychology,"Metcalf, H",1
-Canadian Journal For The Scholarship Of Teaching And Learning,"Chowrira, S",1
-Canadian Journal For The Scholarship Of Teaching And Learning,et a,1
 International Journal Of Innovation In Science And Mathematics Education,"Slaughter, K",1
 International Journal Of Innovation In Science And Mathematics Education,"Bates, S",1
 International Journal Of Innovation In Science And Mathematics Education,"Galloway, R",1
@@ -792,6 +780,8 @@ Acm Transactions On Interactive Intelligent Systems,"Conati, C",1
 Scholarship And Practice Of Undergraduate Research,"Sun, E",1
 Scholarship And Practice Of Undergraduate Research,"Graves, M",1
 Scholarship And Practice Of Undergraduate Research,"Oliver, D",1
+Scholarship And Practice Of Undergraduate Research,"Eby, K",1
+Scholarship And Practice Of Undergraduate Research,"Lukes, L",1
 Nature Astronomy,"Strubbe, L",1
 Nature Astronomy,"Okere, B",1
 Nature Astronomy,"Zhang, J",1
@@ -812,8 +802,6 @@ Transforming Institutions Undergraduate Stem Education For The 21St Century,"Cha
 Transforming Institutions Undergraduate Stem Education For The 21St Century,"Perkins, K",1
 Transforming Institutions Undergraduate Stem Education For The 21St Century,"Code, W",1
 Transforming Institutions Undergraduate Stem Education For The 21St Century,"Wieman, C",1
-Cent Stem Learn Fac Contrib,"Chasteen, S",1
-Cent Stem Learn Fac Contrib,"Code, W",1
 Journal Of Education And Practice,"Baskin, S",1
 Journal Of Education And Practice,"Iscan, A",1
 Journal Of Education And Practice,"Karagoz, B",1

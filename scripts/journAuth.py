@@ -1,6 +1,6 @@
 import pandas as pd
 import csv
-from pathNames import cleanDataPath, journAuthPath
+from pathNames import cleanDataPath, confAuthPath
 from ubc_dept import isUBC, standard_name
 
 data = pd.read_csv(cleanDataPath)
@@ -28,7 +28,7 @@ for index, row in articles.iterrows():
                 journ_authDict[title].extend(pub_authors)
 
 authCount = {}
-with open(journAuthPath, 'w', newline='' ) as file:
+with open(confAuthPath, 'w', newline='' ) as file:
     writer = csv.writer(file)
     field = ["Journal Title", "Author", "Count"]
     writer.writerow(field)
