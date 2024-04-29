@@ -7,10 +7,10 @@ The scripts that we have are:
 1. clean_data.py: Cleans the Zotero import and puts it in clean_data.csv
 2. tags.py: Creates a file of tags and number of occurences
 3. network_graph.py: Creates a file of nodes and edges to create a [network graph](https://public.flourish.studio/visualisation/16796700/)
-4. ubc_faculty.py: Contains a list of UBC faculty, their departments, and some helper functions
-5. conf.py: Creates a file of conference papers and number of occurences
-6. journ.py: Creates a file of contributions by each science faculty per year of journal articles and number of occurences
-7. facPerYr.py: Creates a file of contributions by each science faculty per year
+4. ubc_faculty.py: Contains a list of UBC Faculty of Science departments, and some helper functions
+5. conf.py: Creates a file of count of conference papers and respective authors
+6. journ.py: Creates a file of count of journal articles and respective authors
+7. facPerYr.py: Creates a file of contributions by each science department per year
 8. pathNames.py: Contains the absolute paths of all files used
 9. runAll.py: Running this file generates all files listed above
    
@@ -38,7 +38,8 @@ git clone https://github.com/scienceltrs/SciPub.git
 ## Execute Program Using Terminal
 1. Open terminal. Using ```cd```, change the directory to the cloned SciPub folder
 2. Use ```pwd``` to verify your current directory
-3. Once in the SciPub folder, type in terminal ```python scripts/fileName.py``` to execute the desired script
+3. Once in the SciPub folder, type in terminal ```python3 scripts/fileName.py``` to execute the desired script
+4. Run all scripts by typing ```python3 runAll.py```
 
 ## Tableau Files
 The following files are used in Tableau:
