@@ -1,25 +1,25 @@
 import os
 
-rawDataPath = 'input/data.csv'
-cleanDataPath = 'input/clean_data.csv'
+rawDataPath         = 'input/data.csv'
+cleanDataPath       = 'input/clean_data.csv'
 
-nodeWritePath = 'output/author_nodes.csv'
-edgeWritePath = 'output/author_edges.csv'
+nodeWritePath       = 'output/author_nodes.csv'
+edgeWritePath       = 'output/author_edges.csv'
 
-UBCAuthorWritePath     = 'output/pubUBC_authors.csv'
+UBCAuthorWritePath  = 'output/pubUBC_authors.csv'
 
-tagsPath = 'output/pubTags.csv'
+tagsPath            = 'output/pubTags.csv'
 
-confPath = 'output/conf.csv'
-confOtherPath  = 'output/confOther.csv'
+confPath            = 'output/conf.csv'
+confOtherPath       = 'output/confOther.csv'
 
-journPath = 'output/journ.csv'
-jounrOtherPath = 'output/journOther.csv'
+journPath           = 'output/journ.csv'
+jounrOtherPath      = 'output/journOther.csv'
 
-deptPerYrPath = 'output/deptPerYr.csv'
-confAuthPath = 'output/journAuth.csv'
-confAuthPath = 'output/confAuth.csv'
-itemTypePath = 'output/itemType.csv'
+deptPerYrPath       = 'output/deptPerYr.csv'
+journAuthPath       = 'output/journAuth.csv'
+confAuthPath        = 'output/confAuth.csv'
+itemTypePath        = 'output/itemType.csv'
 
 rawDataPath            = os.path.abspath(rawDataPath)
 cleanDataPath          = os.path.abspath(cleanDataPath)
@@ -32,6 +32,6 @@ confOtherPath          = os.path.abspath(confOtherPath)
 journPath              = os.path.abspath(journPath)
 jounrOtherPath         = os.path.abspath(jounrOtherPath)
 deptPerYrPath          = os.path.abspath(deptPerYrPath)
-confAuthPath          = os.path.abspath(confAuthPath)
+journAuthPath          = os.path.abspath(journAuthPath)
 confAuthPath           = os.path.abspath(confAuthPath)
 itemTypePath           = os.path.abspath(itemTypePath)

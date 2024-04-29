@@ -7,7 +7,7 @@ data.sort_values(['Title'], axis=0, inplace=True)
 articles = data[['Item Type','Publication Year']].dropna()
 
 itemTypeCountDict = {}
-years = range(2000,2025)
+years = range(2000,2025) # Update end year as needed
 for index, row in articles.iterrows():
     type = row['Item Type']
     itemsSplit = type.split("; ")

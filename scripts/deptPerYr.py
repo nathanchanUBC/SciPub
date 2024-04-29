@@ -24,7 +24,7 @@ dept_names = [
   "Statistics"
 ]
 
-years = range(2000, 2025)  # Update end year
+years = range(2000, 2025)  # Update end year as needed
 
 dept_counts = {}
 
