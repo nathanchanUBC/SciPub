@@ -20,6 +20,7 @@ The scripts that we have are:
 ## Computer Setup
 - Please have [VSCode](https://code.visualstudio.com/) and the [Python Extension](https://code.visualstudio.com/docs/python/python-tutorial#_prerequisites) installed
 - Please have [Git](https://git-scm.com/downloads) installed
+- Please have [Python](https://www.python.org/downloads/) installed
 - Have the following packages installed: [Pandas](https://pypi.org/project/pandas/), [Unidecode](https://pypi.org/project/Unidecode/)
 - We recommend using the Rainbow CSV VSCode Extension for CSV readability (*optional*)
 ## Program Setup
@@ -27,8 +28,8 @@ The scripts that we have are:
  ```
 git clone https://github.com/scienceltrs/SciPub.git
 ```  
-2. Replace the SciPub/input/data.csv with your personalized exported Zotero library (in CSV). This is the raw data
-3. Rename the replaced file to data.csv
+2. Replace the SciPub/input/data.csv with your personalized exported Zotero library ("Science T&L Publications INTERNAL - ALL")
+3. Rename the uploaded to data.csv
 
 ## Executing Program Using VSCode
 1. Open clean_data.py in VSCode then execute the script by pressing the arrow icon, "Run Python File"
