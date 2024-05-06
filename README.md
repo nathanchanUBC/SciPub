@@ -7,7 +7,7 @@ The scripts that we have are:
 1. clean_data.py: Cleans the Zotero import and puts it in clean_data.csv
 2. tags.py: Creates a file of tags and number of occurences
 3. network_graph.py: Creates a file of nodes and edges to create a [network graph](https://public.flourish.studio/visualisation/16796700/)
-4. ubc_faculty.py: Contains a list of UBC Faculty of Science departments, and some helper functions
+4. ubc_dept.py: Contains a list of UBC Faculty of Science departments, and some helper functions
 5. conf.py: Creates a file of conference papers counts and respective authors
 6. journ.py: Creates a file of journal articlescounts  and respective authors
 7. deptPerYr.py: Creates a file of contribution count by each Science department per year
@@ -41,7 +41,7 @@ git clone https://github.com/scienceltrs/SciPub.git
 1. Open terminal. Using ```cd```, change the directory to the cloned SciPub folder
 2. Use ```pwd``` to verify your current directory
 3. Once in the SciPub folder, type in terminal ```python3 scripts/fileName.py``` to execute the desired script
-4. Run all scripts by typing ```python3 runAll.py```
+4. Alternatively, run all scripts by typing ```python3 runAll.py```
 
 ## Tableau Files
 The following files are used in Tableau:
@@ -62,8 +62,8 @@ The following files are uesd in Flourish:
 - author_nodes.csv
 
 ## Closing Remarks
-- If there are conflicitng name formats (excluding accents) in the cleaned_data.csv, standardize them in the dictionary, standardizedNames, in SciPub/ubc_faculty.py
+- If there are conflicitng name formats (excluding accents) in the cleaned_data.csv, standardize them in the dictionary, standardizedNames, in SciPub/scripts/ubc_dept.py.py
 - Make sure that the key doesn't include any accents otherwise they won't appear in the generated csvs!
-- If there are new authors, you must add their (standardized) name to their respective faculty list in "SciPub/ubc_faculty.py" 
+- If there are new authors, you must add their (standardized) name to their respective faculty list in "SciPub/scripts/ubc_dept.py.py" 
 
 
