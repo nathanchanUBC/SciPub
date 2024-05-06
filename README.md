@@ -8,11 +8,12 @@ The scripts that we have are:
 2. tags.py: Creates a file of tags and number of occurences
 3. network_graph.py: Creates a file of nodes and edges to create a [network graph](https://public.flourish.studio/visualisation/16796700/)
 4. ubc_faculty.py: Contains a list of UBC Faculty of Science departments, and some helper functions
-5. conf.py: Creates a file of count of conference papers and respective authors
-6. journ.py: Creates a file of count of journal articles and respective authors
-7. facPerYr.py: Creates a file of contributions by each science department per year
-8. pathNames.py: Contains the absolute paths of all files used
-9. runAll.py: Running this file generates all files listed above
+5. conf.py: Creates a file of conference papers counts and respective authors
+6. journ.py: Creates a file of journal articlescounts  and respective authors
+7. deptPerYr.py: Creates a file of contribution count by each Science department per year
+8. itemType.py: Creates a file of item type counts 
+9. pathNames.py: Contains the absolute paths of all files used
+10. runAll.py: Running this file generates all files listed above
    
 
 # Getting Started
@@ -44,10 +45,15 @@ git clone https://github.com/scienceltrs/SciPub.git
 ## Tableau Files
 The following files are used in Tableau:
 - conf.csv
-- facPerYr.csv
+- confAuth.csv
+- confOther.csv
+- deptPerYr.csv
+- itemType.csv
 - journ.csv
+- journAuth.csv
+- journOther.csv
 - pubTags.csv
-- author_nodes.csv
+- pubUBC_authors.csv
   
 ## Flourish Files
 The following files are uesd in Flourish:
