@@ -64,6 +64,6 @@ The following files are uesd in Flourish:
 ## Closing Remarks
 - If there are conflicitng name formats (excluding accents) in the cleaned_data.csv, standardize them in the dictionary, standardizedNames, in SciPub/scripts/ubc_dept.py
 - Make sure that the key doesn't include any accents otherwise they won't appear in the generated csvs!
-- If there are new authors, you must add their (standardized) name to their respective faculty list in "SciPub/scripts/ubc_dept.py" 
+- If there are new authors, you must add their (standardized) name to their respective department list in "SciPub/scripts/ubc_dept.py" 
 
 
